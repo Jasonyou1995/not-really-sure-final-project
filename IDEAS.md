@@ -11,3 +11,4 @@
 6. Visualize the regression lines (can be non-linear) and confidence interval for the scatter plot (by scatterD3 or ggplot2 + plotly) with x = universities, y = some_variables_from_dataset.
 7. _ShanghaiData_: group by year, and Visualize the trent for the choosed University (by showing the regression line and ranking changes)
 8. Sorting the data by different variables and then visualize all of theses rankings (can be grouped by one Shiny app)
+9. Using Google Knowledge Graph to get information about each university
