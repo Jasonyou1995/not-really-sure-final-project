@@ -86,10 +86,13 @@ Final project for INFO201-a16 (Team: "Not Really Sure")
 		* **countUniversity.R**	*(count universities by country and year)*
 		* **nearbySearch.R** *(locat some interesting things around campus from Google Place api)*
 
-* Total Hour spent: _23 hours_
+* Total Hour spent: _26 hours_
 	* Including:
 		* Learning (ggmap, Google apis, etc.): 9 hours
-		* Get work done: 9 + 4.5 hours = 13.5 hours (most of time was spent on debugging **findCoordinates.R**)
+		* Get work done: 9 + 4.5 +3 hours = 16.5 hours (most of time was spent on debugging **findCoordinates.R**)
+			* Also found the bar data (count and coordinates) around 5000 meter radius for each university
+			* Visualized all the bars for each university
+			* Visualized the relationship between the number of bar nearby and the ranking of the University
 		* Planning time (plan the structure of our product): 0.5 hour
 
 <hr/>

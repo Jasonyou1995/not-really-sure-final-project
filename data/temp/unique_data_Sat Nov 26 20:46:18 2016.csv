@@ -1,0 +1,819 @@
+"university_name","lon","lat","bar_count"
+"Harvard University",-71.1166286,42.3800977,199
+"California Institute of Technology",-118.125269,34.1376576,121
+"Massachusetts Institute of Technology",-71.0934,42.3591,199
+"Stanford University",-117.8389422,33.6518297,51
+"Princeton University",-74.6582332,40.3492867,28
+"University of Cambridge",0.1177882,52.2016671,161
+"University of Oxford",-117.8273389,33.6504742,47
+"University of California, Berkeley",-122.2447958,37.8805941,97
+"Imperial College London",-0.1732294,51.5177246,196
+"Yale University",-90.315018,38.6595336,121
+"University of California, Los Angeles",-118.4431764,34.0729489,164
+"University of Chicago",-87.5903039,41.7857416,58
+"Johns Hopkins University",-76.6003432,39.3272601,200
+"Cornell University",-117.8357356,33.6493781,50
+"ETH Zurich – Swiss Federal Institute of Technology Zurich",8.541694,47.3768866,198
+"University of Michigan",-83.7382241,42.2780436,91
+"University of Toronto",-79.4023299,43.666663,200
+"Columbia University",-73.9625727,40.8075355,199
+"University of Pennsylvania",-90.3149303,38.6736751,81
+"Carnegie Mellon University",-79.9441368,40.4432289,197
+"University of Hong Kong",114.1378391,22.2840507,199
+"University College London",-0.1335692,51.5247063,195
+"University of Washington Seattle",-122.3102213,47.6698745,193
+"Duke University",-117.166351,34.061706,26
+"Northwestern University",-87.6197349,41.8954119,198
+"University of Tokyo",139.7442192,35.7198647,198
+"Georgia Institute of Technology",-84.3988806,33.7784626,196
+"Pohang University of Science and Technology",129.3434808,36.0190178,34
+"University of California, Santa Barbara",-117.8082831,33.6858022,63
+"University of British Columbia",-123.2459939,49.2606052,20
+"University of North Carolina at Chapel Hill",-78.9399682,35.9681485,65
+"University of California, San Diego",-117.2340135,32.8800604,49
+"University of Illinois at Urbana-Champaign",-88.2271615,40.1019523,78
+"National University of Singapore",7.4674717,45.7399332,15
+"McGill University",-113.9836203,46.8624181,51
+"University of Melbourne",144.9610796,-37.8013221,198
+"Peking University",116.3065393,39.9939231,191
+"Washington University in St Louis",-90.3308854,38.6846489,84
+"École Polytechnique",-73.6130801,45.504661,200
+"University of Edinburgh",-3.1847238,55.9462691,197
+"Hong Kong University of Science and Technology",114.2715461,22.2917485,11
+"École Normale Supérieure",-83.8126438,39.7473569,1
+"Australian National University",142.389278,-10.890853,NA
+"Karolinska Institute",18.0214528,59.3494376,200
+"University of Göttingen",9.9374004,51.5408116,50
+"University of Wisconsin",-89.4052247,43.0765915,180
+"Rice University",-85.6613123,40.1136943,18
+"École Polytechnique Fédérale de Lausanne",6.5676007,46.5189865,87
+"University of California, Irvine",-117.853022,33.664081,112
+"University of Science and Technology of China",117.26217,31.838698,174
+"Vanderbilt University",-73.7199435,40.7694536,85
+"University of Minnesota",-93.199514,44.9743269,147
+"Tufts University",-71.120482,42.4036848,198
+"University of California, Davis",-121.7209826,38.5494919,26
+"Brown University",-83.9617862,43.514033,15
+"University of Massachusetts",-117.3324743,33.9866891,31
+"Kyoto University",135.7680294,35.0116363,197
+"Tsinghua University",116.3246671,39.9990443,193
+"Boston University",-0.1852592,51.4925846,194
+"New York University",-106.496973,31.777508,126
+"Emory University",-80.627626,28.0658079,50
+"LMU Munich",11.582443,48.150942,197
+"University of Notre Dame",-86.2377772,41.6973401,80
+"University of Pittsburgh",-79.960835,40.4443533,198
+"Case Western Reserve University",-81.6083838,41.5043413,81
+"Ohio State University",-83.0227103,39.9993865,200
+"University of Colorado Boulder",-105.2627072,40.0071656,95
+"University of Bristol",-2.6259899,51.4771065,182
+"University of California, Santa Cruz",-117.3163115,33.981043,20
+"Yeshiva University",111.0957348,33.4442576,NA
+"University of Sydney",149.6612155,-30.4730963,NA
+"University of Virginia",-93.1147395,44.9494426,133
+"University of Adelaide",138.6090143,-34.9103022,200
+"University of Southern California",-117.2914463,34.1036186,31
+"William & Mary",-77.1485163,37.7372121,NA
+"Trinity College Dublin",-6.2576899,53.3454782,193
+"King’s College London",-0.0890873,51.4699486,193
+"Stony Brook University",-73.1146681,40.9098883,19
+"Korea Advanced Institute of Science and Technology (KAIST)",127.3640249,36.3693921,62
+"University of Sussex",-0.7756403,50.8443366,53
+"The University of Queensland",151.9287869,-27.6061106,9
+"University of York",-104.9603049,39.6818471,181
+"Heidelberg University",-77.576748,43.1700966,137
+"University of Utah",-111.8884532,33.4249307,94
+"Durham University",-1.5782029,54.7649859,91
+"London School of Economics and Political Science",-0.1173766,51.5144077,195
+"University of Manchester",-90.3332427,38.6129798,123
+"Royal Holloway, University of London",-0.5630625,51.425673,70
+"Lund University",-87.7106499,41.9722799,199
+"University of Southampton",-1.3962068,50.9340275,182
+"University of Zurich",8.5595886,47.3588302,198
+"Wake Forest University",-76.9359658,38.97546,37
+"McMaster University",-81.0261039,34.0026819,113
+"University College Dublin",-6.2168851,53.305257,194
+"George Washington University",-77.0470916,38.8991756,199
+"University of Arizona",-82.4530718,28.067177,50
+"University of Basel",36.2776484,33.5117629,25
+"University of Maryland, College Park",-76.9367935,38.9920364,36
+"Dartmouth College",-91.6514459,41.92479,24
+"École Normale Supérieure de Lyon",4.829049,45.731469,198
+"Technical University of Munich",19.2402603,52.0563394,4
+"University of Helsinki",-99.1698567,19.3049111,200
+"University of St Andrews",-2.7930852,56.3412112,35
+"Rensselaer Polytechnic Institute",-73.6788026,42.730172,47
+"Rutgers, the State University of New Jersey",-74.1741891,40.7416983,200
+"Purdue University",-87.0541793,40.4533683,1
+"National Tsing Hua University",120.99678,24.797079,104
+"University of Cape Town",18.415091,-33.925967,198
+"Pennsylvania State University",-77.8608888,40.8072337,46
+"Seoul National University",126.952712,37.48121,116
+"Hong Kong Baptist University",114.181587,22.337943,199
+"Bilkent University",32.7475962,39.8746147,22
+"Tokyo Institute of Technology",139.6835302,35.6051229,200
+"Eindhoven University of Technology",5.4907148,51.4486098,103
+"National Taiwan University",121.518577,25.041471,199
+"University of Hawai’i at Mānoa",-157.818968,21.3,199
+"University of California, Riverside",-117.3280644,33.9737055,30
+"University of Geneva",6.1011686,46.2247046,195
+"KU Leuven",4.7005176,50.8798438,83
+"Nanjing University",118.7809448,32.0569463,197
+"Queen Mary University of London",-0.0591022,51.5169409,193
+"Michigan State University",-83.7333394,42.2752422,95
+"Technical University of Denmark",9.9785216,57.0149963,33
+"Ghent University",-123.1884423,49.2669654,200
+"Lancaster University",-2.7850105,54.0101034,68
+"Leiden University",4.481357,52.1569487,57
+"University of Alberta",-113.5490268,53.4943212,102
+"University of Glasgow",-4.288761,55.87151,199
+"Stockholm University",-81.5636262,41.4685433,53
+"Osaka University",-99.1462101,19.2848865,200
+"University of Victoria",-117.8567958,33.6304814,68
+"Tohoku University",140.874074,38.253834,200
+"University of Freiburg",7.8493126,48.0028354,121
+"University of Iowa",-117.3398859,33.9790905,31
+"University of Bergen",-74.1913563,40.7424432,200
+"University of Lausanne",6.6528621,46.5287859,117
+"University of Sheffield",-1.48406,53.38071,181
+"University of Montreal",-90.350862,38.6816147,69
+"VU University Amsterdam",4.8658302,52.3344753,199
+"Pierre and Marie Curie University",2.357499,48.8471036,199
+"University of Dundee",-82.4316809,28.0619082,63
+"University of Barcelona",-117.8207002,33.6766692,69
+"Utrecht University",5.1214201,52.0907374,123
+"Wageningen University and Research Center",5.6653948,51.9691868,17
+"University of Auckland",174.7699782,-36.8490661,200
+"University of Birmingham",-1.93668,52.45126,189
+"Alexandria University",-117.8205127,33.6817395,72
+"Uppsala University",17.6300093,59.8509005,41
+"Hong Kong Polytechnic University",114.178928,22.302516,198
+"University of Aberdeen",-82.4317193,28.0653457,63
+"Delft University of Technology",4.3570677,52.0115769,51
+"Birkbeck, University of London",-0.130217,51.5219285,195
+"Newcastle University",151.710005,-32.8871981,28
+"University of New South Wales",151.710005,-32.8871981,28
+"Pompeu Fabra University",2.1790535,41.3793687,199
+"Indiana University",-86.5269373,39.1670467,58
+"Iowa State University",-93.6396252,42.0277899,39
+"Georgia Health Sciences University",-82.9000751,32.1656221,NA
+"Erasmus University Rotterdam",4.525585,51.91752,200
+"University of Delaware",-117.7759092,33.7105331,33
+"Arizona State University",-111.9339825,33.4205343,101
+"Boston College",-0.0147452,52.9733763,53
+"National Sun Yat-Sen University",120.265922,22.625005,191
+"Georgetown University",-77.0722585,38.9076089,199
+"University of Amsterdam",4.9470315,52.3561962,200
+"University of Liverpool",-2.9655722,53.405936,190
+"Aarhus University",12.1021324,55.695402,NA
+"University of Leeds",-82.4315563,28.0637104,62
+"University of Würzburg",9.9533548,49.7913044,110
+"University of Groningen",6.5665018,53.2193835,84
+"Sun Yat-sen University",113.29947,23.103702,194
+"Goethe University Frankfurt",8.6293081,50.1703746,47
+"Bielefeld University",8.4963449,52.0354177,77
+"Nanyang Technological University",-120.554501,34.865784,NA
+"University of East Anglia",1.2406141,52.6184758,185
+"University of Nottingham",-1.1951582,52.938636,183
+"University of Copenhagen",121.0990078,14.6064499,197
+"Humboldt University of Berlin",13.5333041,52.4321218,77
+"Monash University",145.1340508,-38.1532011,20
+"University of Bonn",121.1009535,14.6051887,197
+"National Chiao Tung University",120.294197,22.925346,3
+"RWTH Aachen University",6.0656869,50.7800778,110
+"Middle East Technical University",33.0307541,35.246756,2
+"University of Exeter",-117.8296666,33.6508563,48
+"University of Twente",6.8524128,52.2410326,45
+"University of Konstanz",-112.0125261,33.3752269,14
+"Karlsruhe Institute of Technology",8.4170303,49.0119199,179
+"University of Innsbruck",-81.2365003,28.5527426,30
+"University of Tübingen",9.0576448,48.5216364,47
+"Drexel University",-90.3312523,38.6677847,90
+"University of Cincinnati",-84.5138565,39.1288979,199
+"Yonsei University",126.938572,37.565784,155
+"Dalhousie University",-97.1453994,49.7887693,15
+"KTH Royal Institute of Technology",18.0706645,59.3498065,200
+"University of Vienna",-117.8440006,33.6140008,46
+"Kent State University",-81.3449261,41.1507253,37
+"University of Illinois at Chicago",-117.3484801,33.9690772,36
+"Zhejiang University",120.1689207,30.2929634,195
+"Simon Fraser University",-122.9198833,49.2780937,26
+"Swedish University of Agricultural Sciences",17.6628688,59.814947,17
+"University of Wisconsin-Madison",-89.4052247,43.0765915,180
+"University of Texas at Austin",-97.7335226,30.2850284,196
+"University of Rochester",-77.6260033,43.1305531,136
+"University of Bern",121.0977098,14.6037344,197
+"Hebrew University of Jerusalem",35.196198,31.779193,96
+"University of Florida",-80.277027,25.714868,123
+"Brandeis University",-85.7551276,38.2190053,198
+"Chinese University of Hong Kong",114.203926,22.417442,27
+"Free University of Berlin",13.404954,52.5200066,197
+"University of Warwick",-1.563191,52.379411,128
+"Radboud University Nijmegen",5.8372264,51.8125626,83
+"Medical University of South Carolina",-79.9514049,32.7870748,169
+"Texas A&M University",-99.9018131,31.9685988,1
+"University of Reading",-0.948534,51.440262,172
+"Tel Aviv University",34.8046043,32.1036332,200
+"Paris Diderot University – Paris 7",2.3075232,48.8588342,198
+"Université Catholique de Louvain",4.4482526,50.4079951,35
+"University of Miami",-80.2792843,25.7216374,123
+"Queen’s University",-73.7948516,40.7282239,200
+"University of São Paulo",-46.7307891,-23.5613991,200
+"University of Oslo",121.0936889,14.6712421,191
+"University of Ottawa",-75.6828,45.4248599,197
+"University of Western Australia",150.7397635,-33.7699666,17
+"City University of Hong Kong",114.1720025,22.3374868,199
+"Maastricht University",5.6886039,50.8442878,68
+"University of Leicester",-1.1064677,52.6084655,184
+"Autonomous University of Barcelona",2.1640917,41.3855048,199
+"Cardiff University",-3.1868361,51.4919075,190
+"Colorado School of Mines",-105.2344334,39.7458208,23
+"Nagoya University",136.967573,35.153491,196
+"Northeastern University",-71.0894884,42.340082,198
+"Technion Israel Institute of Technology",35.0231271,32.7767783,41
+"Tulane University",-90.3302509,38.6628918,94
+"Ulm University",-92.0610366,32.5320588,28
+"Umeå University",20.3116101,63.8215945,19
+"University at Buffalo",-82.3457627,36.3051823,23
+"University of Essex",-83.0524629,40.0024922,168
+"University of Georgia",44.779722,41.7229257,155
+"University of Gothenburg",11.9853213,57.6954209,192
+"University of Medicine and Dentistry of New Jersey",-74.4701962,40.5255752,62
+"University of Otago",170.513132,-45.863208,75
+"University of South Carolina",-81.0274276,33.996112,110
+"University of Strasbourg",-117.7779478,33.6833384,43
+"University of Waterloo",-80.541671,43.473289,70
+"University of Western Ontario",-81.2769422,43.0010299,75
+"Université Libre de Bruxelles",4.3822222,50.8132068,199
+"Carleton University",-75.698312,45.3830819,196
+"Chalmers University of Technology",11.9777584,57.6883684,188
+"Colorado State University",-105.0807072,40.5747751,109
+"Creighton University",-95.9428199,41.2623774,155
+"Fudan University",121.5014465,31.2985307,196
+"Korea University",127.035859,37.590401,102
+"Macquarie University",151.1185824,-33.7775092,38
+"State University of New York Albany",-73.7611058,42.6558252,95
+"Tokyo Metropolitan University",139.6917064,35.6894875,198
+"University of Bologna",-97.379464,32.7170887,130
+"University of Calgary",-114.1358007,51.0781599,75
+"University of Hamburg",9.9846195,53.5665641,198
+"University of Milan",9.1945843,45.4601435,200
+"University of Milan-Bicocca",9.213452,45.518383,200
+"University of Missouri",-92.3277375,38.9403808,96
+"University of Padua",11.8774462,45.406766,198
+"University of Trieste",13.7934477,45.658667,200
+"Bangor University",-4.1299874,53.2295205,44
+"Brunel University London",-0.4692108,51.5331581,101
+"Johannes Kepler University of Linz",14.3219434,48.3375357,109
+"Kyushu University",130.4250445,33.6266584,199
+"Norwegian University of Science and Technology",10.402077,63.419499,57
+"Queen’s University Belfast",-5.9340494,54.5844087,199
+"Ruhr University Bochum",7.2616093,51.4456659,77
+"Stellenbosch University",18.864447,-33.9328078,28
+"Tilburg University",5.0419736,51.5631406,63
+"TU Dresden",13.7289964,51.0292734,200
+"University of Bath",-2.3272635,51.3781162,174
+"University of Graz",15.4499126,47.0777872,200
+"University of Kiel",10.1147022,54.3460549,115
+"University of Southern Denmark",10.4280674,55.3706746,78
+"University of Texas at Dallas",-96.7500993,32.9857619,60
+"University of the Witwatersrand",28.0305044,-26.1930344,123
+"University of Tsukuba",140.1039611,36.1087221,53
+"University of Wollongong",150.87843,-34.4054039,59
+"Victoria University of Wellington",174.7686615,-41.2904017,165
+"Virginia Polytechnic Institute and State University",-80.4234167,37.2283843,23
+"Wayne State University",-83.0665462,42.3591388,200
+"Aberystwyth University",-4.0632712,52.4153984,36
+"Autonomous University of Madrid",-3.6943619,40.5466983,153
+"Hokkaido University",141.340013,43.0779575,199
+"Istanbul Technical University",29.0253401,41.1055941,56
+"Lomonosov Moscow State University",37.5286695,55.7039349,141
+"Montpellier University",3.8603619,43.6319555,200
+"Queensland University of Technology",153.0284231,-27.477356,196
+"State University of Campinas",-47.0647206,-22.8184393,89
+"Technical University of Darmstadt",8.6568726,49.8751004,87
+"Tokyo Medical and Dental University (TMDU)",139.764451,35.7012897,198
+"UiT The Arctic University of Norway",18.9712162,69.6798027,23
+"University of Antwerp",4.4102318,51.2228097,200
+"University of Crete",25.0826527,35.3073146,13
+"University of Guelph",-80.2245283,43.5331548,35
+"University of Iceland",-21.9518896,64.1396203,75
+"University of Kansas",-95.2557961,38.9543439,80
+"University of Kentucky",-84.5039697,38.0306511,139
+"University of Münster",7.6131826,51.9635705,132
+"University of Newcastle",151.7041775,-32.8927718,30
+"University of Texas at San Antonio",-98.6207675,29.5830244,49
+"University of Trento",11.1231165,46.0667967,199
+"York University",-79.5018684,43.7734535,85
+"Aalborg University",9.9818527,57.0145665,25
+"Aalto University",24.827682,60.1866693,36
+"Bar-Ilan University",34.8430876,32.0691989,67
+"Binghamton University, State University of New York",-75.9697049,42.0893553,58
+"Boğaziçi University",29.0510399,41.0847571,76
+"Charles Darwin University",130.8689199,-12.3717852,16
+"Charles University in Prague",14.4234889,50.0871106,199
+"George Mason University",-77.3115849,38.8343675,37
+"Indian Institute of Technology Bombay",72.9132679,19.1334302,162
+"Jagiellonian University",19.9341074,50.0609623,200
+"Keele University",-2.272053,53.0034373,89
+"Keio University",139.7429376,35.6489643,200
+"Lehigh University",-75.3782832,40.6069087,88
+"Linköping University",15.5760072,58.3978364,30
+"National Taiwan University of Science and Technology (Taiwan Tech)",121.5416515,25.0130679,199
+"Plymouth University",-4.1406465,50.3745284,181
+"Polytechnic University of Milan",9.2272764,45.4781071,200
+"Sapienza University of Rome",12.5144384,41.9037626,199
+"Shanghai Jiao Tong University",121.4337784,31.0252201,30
+"Sharif University of Technology",51.351593,35.7036366,20
+"Sungkyunkwan University (SKKU)",126.993606,37.588227,141
+"University College Cork",-8.4932738,51.8921099,186
+"University of Aveiro",-8.657506,40.6303024,67
+"University of Canterbury",172.5839233,-43.5235375,121
+"University of Eastern Finland",29.744203,62.603598,14
+"University of Ferrara",11.6261625,44.8334234,199
+"University of Hertfordshire",-0.2467997,51.7617561,56
+"University of Houston",-95.3422334,29.7199489,198
+"University of Hull",-0.3673875,53.7714552,174
+"University of Liège",5.559064,50.5830803,12
+"University of Manitoba",-97.1366259,49.8075008,27
+"University of Maryland, Baltimore County",-76.7111956,39.2551135,26
+"University of Modena and Reggio Emilia",10.9279258,44.6451116,200
+"University of Oklahoma",-97.4457137,35.2058936,47
+"University of Pisa",10.3988593,43.7167235,200
+"University of Porto",-8.6156998,41.1465479,200
+"University of South Florida",-82.4138539,28.0587031,63
+"University of Stirling",-3.918879,56.1459171,52
+"University of Surrey",-0.5904827,51.2423009,82
+"University of Tampere",23.7787354,61.4937448,101
+"University of Tasmania",147.3266391,-42.9035119,95
+"University of Valencia",-0.3593863,39.4793254,199
+"University of Waikato",175.3184579,-37.7868611,44
+"University of Warsaw",21.0186012,52.2403463,198
+"Vienna University of Technology",16.3684626,48.1986546,200
+"Vrije Universiteit Brussel",4.394886,50.821658,199
+"Washington State University",-117.1542121,46.7319225,16
+"Aston University",-1.8902314,52.4869642,194
+"Auburn University",-85.4951663,32.5933574,24
+"Clemson University",-82.8391551,34.680476,19
+"Curtin University",115.8944182,-32.0061951,46
+"Deakin University",145.1149452,-37.8477381,19
+"Flinders University",138.5713281,-35.0244952,18
+"Georgia State University",-84.3852819,33.753068,196
+"Griffith University",153.053674,-27.5536791,28
+"Harbin Institute of Technology",126.633425,45.747047,195
+"Heriot-Watt University",-3.3203494,55.9096602,46
+"Hiroshima University",132.714908,34.403123,8
+"Kansas State University",-96.5847249,39.1974437,49
+"Kobe University",135.2353953,34.7256185,124
+"Kyung Hee University",127.052544,37.5961951,97
+"La Trobe University",145.0483946,-37.7207268,33
+"Leibniz University of Hanover",9.7196989,52.3829641,200
+"Liverpool John Moores University",-2.9712846,53.4034017,190
+"Loughborough University",-1.224632,52.769227,81
+"Mahidol University",100.3233845,13.7947609,11
+"Massey University",175.619553,-40.3867649,21
+"Michigan Technological University",-88.5445293,47.1170498,13
+"National Central University",121.1925163,24.9694808,64
+"National Taiwan Ocean University",121.7768159,25.1501756,35
+"National University of Ireland, Galway",-9.061603,53.276645,100
+"National University of Ireland, Maynooth",-6.6000704,53.3838822,18
+"New Jersey Institute of Technology",-74.1778803,40.7425572,200
+"New University of Lisbon",-9.160333,38.733682,200
+"Old Dominion University",-76.3035628,36.888947,69
+"Polytechnic University of Catalonia",2.1132804,41.388004,200
+"Polytechnic University of Turin",7.6620529,45.0627948,200
+"Polytechnic University of Valencia",-0.341067,39.481059,199
+"Pontifical Catholic University of Chile",-70.6407933,-33.4411279,199
+"Saint Petersburg State University",30.2989198,59.941894,199
+"Swansea University",-3.982132,51.608392,177
+"Swinburne University of Technology",145.0389546,-37.8221504,200
+"Tokyo University of Agriculture and Technology",139.478664,35.683986,200
+"University of Bari Aldo Moro",16.8684745,41.1205546,199
+"University of Coimbra",-8.4241509,40.2089072,95
+"University of Idaho",-117.0126084,46.7288124,14
+"University of Kent",1.071629,51.298536,98
+"University of Paris North – Paris 13",2.341461,48.956209,200
+"University of Salento",18.1672669,40.3495599,200
+"University of South Australia",138.6066669,-34.9201652,200
+"University of Strathclyde",-4.2428535,55.8628285,199
+"University of Tartu",26.7198658,58.3810843,42
+"University of Turku",22.2851138,60.4562974,87
+"University of Wyoming",-105.5796706,41.3130972,30
+"University of Zaragoza",-0.90034,41.64213,200
+"Waseda University",139.7208045,35.7092082,198
+"Wuhan University",114.3643219,30.5360485,200
+"Yuan Ze University",121.2664937,24.9699006,87
+"Paris-Sud University",2.1764839,48.6976847,59
+"Joseph Fourier University",4.915197,44.91763,172
+"Johannes Gutenberg University of Mainz",8.2415552,49.9926403,149
+"St George’s, University of London",-0.1745034,51.4271937,192
+"University of Erlangen-Nuremberg",11.0045507,49.5978804,66
+"Florida Institute of Technology",-80.623022,28.0646888,48
+"Indian Institute of Technology Kharagpur",87.3105311,22.3149274,4
+"Koç University",29.0732704,41.2053128,5
+"Laval University",-71.2747424,46.7817463,75
+"Mines ParisTech",2.339632,48.845585,198
+"National Research Nuclear University MePhI",37.6638741,55.649567,83
+"University of Connecticut",-72.2539805,41.8077414,3
+"University of Oregon",-123.0726055,44.0448302,122
+"Bayreuth University",11.585831,49.9288196,44
+"Oregon State University",-123.2794442,44.5637806,39
+"University of Montana",-113.9852081,46.8600672,52
+"University of Turin",7.6889006,45.069428,200
+"Claude Bernard University Lyon 1",4.862939,45.779462,199
+"King Abdulaziz University",39.2457769,21.4938519,10
+"Medical University of Vienna",16.351571,48.219673,200
+"Murdoch University",115.8329519,-32.0686354,22
+"National Cheng Kung University",120.2180947,22.9996873,166
+"North Carolina State University",-78.6820946,35.7846633,159
+"Renmin University of China",116.3188145,39.9696062,195
+"University of Fribourg",7.152006,46.806357,36
+"University of Pavia",9.1555362,45.1864597,182
+"University of Portsmouth",-1.0935686,50.7951287,172
+"University of Vermont",-73.1964637,44.4778528,88
+"Indian Institute of Technology Roorkee",77.8965787,29.8648599,1
+"King Mongkut’s University of Technology Thonburi",100.4949226,13.6517367,53
+"National Autonomous University of Mexico",-99.1843676,19.3188895,199
+"Paris Dauphine University",2.273451,48.870029,198
+"Southern Methodist University",-96.7845175,32.8412178,192
+"Temple University",-75.1575243,39.9803336,197
+"University of Duisburg-Essen",6.8009529,51.4277477,79
+"University of Jyväskylä",25.7316335,62.2365317,39
+"University of KwaZulu-Natal",30.9807272,-29.8674219,91
+"University of Minho",-8.3966231,41.5598965,85
+"University of Technology Sydney",151.2004942,-33.8832376,197
+"University of the Andes, Colombia",-74.065012,4.602968,199
+"University of Vigo",-8.6833929,42.1694456,84
+"Panjab University",76.7653924,30.7606188,44
+"University of Cologne",6.9288192,50.9281625,200
+"University of Nebraska-Lincoln",-96.7004763,40.8201966,116
+"University of Alaska Fairbanks",-147.8364611,64.8575556,16
+"Wuhan University of Technology",114.356477,30.610732,199
+"China Medical University, Taiwan",120.6801328,24.1562767,200
+"Hanyang University",127.0453219,37.5572321,140
+"Indian Institute of Technology Delhi",77.1926283,28.5449756,193
+"Indian Institute of Technology Kanpur",80.2329,26.5123388,1
+"King Saud University",46.6191078,24.716241,6
+"San Diego State University",-117.0718893,32.7757217,87
+"University of Florence",11.259765,43.7776426,200
+"University of Navarra",-1.6582784,42.8024726,200
+"University of Rovira i Virgili",1.260497,41.1196609,199
+"Scuola Normale Superiore di Pisa",10.4003296,43.7196006,200
+"Syracuse University",-76.1351158,43.0391534,130
+"Sabancı University",29.3748667,40.8928831,2
+"Technical University of Berlin",13.3269446,52.5125322,198
+"Federico Santa María Technical University",-71.5956131,-33.0347298,156
+"University of Bremen",8.85204,53.106758,193
+"University of New Mexico",-106.6197812,35.0843187,85
+"Indian Institute of Science",77.5671423,13.0218597,196
+"Lappeenranta University of Technology",28.0941671,61.0648818,12
+"University of Macau",113.5466489,22.1290705,43
+"Illinois Institute of Technology",-87.6270059,41.8348731,200
+"Novosibirsk State University",83.0943884,54.8477462,17
+"University of Marrakech Cadi Ayyad",-8.0038775,31.6652074,80
+"University of Nebraska Medical Center",-95.9778714,41.2551186,199
+"University of Stuttgart",9.1747024,48.7815352,200
+"Ewha Womans University",126.9468294,37.5618577,161
+"Isfahan University of Technology",51.5330109,32.7200351,NA
+"Royal College of Surgeons in Ireland",-6.261986,53.338985,193
+"University of Lisbon",-9.1567472,38.7530019,200
+"University of Rome III",12.4795619,41.8620534,199
+"University of Seoul",127.0587771,37.5838657,96
+"Western Sydney University",151.0251472,-33.8118321,59
+"University of Mannheim",8.4622333,49.4837106,187
+"Scuola Superiore Sant’Anna",10.4027859,43.7209661,200
+"University of Luxembourg",5.948386,49.504254,41
+"Charité - Universitätsmedizin Berlin",13.3766245,52.5264618,198
+"Copenhagen Business School",12.529679,55.681611,200
+"Florida State University",-84.2984889,30.4418778,93
+"Oregon Health and Science University",-122.6859419,45.499045,197
+"Paris Descartes University",2.340761,48.851251,198
+"Peter the Great St Petersburg Polytechnic University",30.372899,60.007357,120
+"Royal Veterinary College",-0.1335335,51.536454,196
+"Rush University",-87.6695315,41.8736016,199
+"Aix-Marseille University",5.3591422,43.2922146,200
+"University of Bordeaux",-0.5707764,44.830485,199
+"James Cook University",146.7580624,-19.3275726,11
+"Justus Liebig University Giessen",8.6771313,50.5804427,57
+"Saint Louis University",-90.2373647,38.6354092,198
+"University of Tennessee, Knoxville",-83.9294564,35.9544013,85
+"Tomsk Polytechnic University",84.950135,56.465427,128
+"University of Greifswald",13.3746917,54.0949312,13
+"Gwangju Institute of Science and Technology",126.8407202,35.2272692,21
+"University of Hohenheim",9.2139326,48.7119251,45
+"Kazan Federal University",49.1214348,55.790447,189
+"Medical College of Wisconsin",-88.020103,43.043967,165
+"University of Naples Federico II",14.2578058,40.845492,200
+"Örebro University",15.24923,59.254276,22
+"Technical University of Dortmund",7.4128386,51.4926981,142
+"Toulouse 1 Capitole University",1.4371122,43.6067724,198
+"VŠB - Technical University of Ostrava",18.1636092,49.8336826,70
+"University of Cyprus",33.3770175,35.1600014,107
+"University of St Gallen",9.3755673,47.4321575,72
+"Graz University of Technology",15.450342,47.0692742,200
+"Instituto Superior Técnico Lisboa",-9.138705,38.7368192,200
+"University of Oulu",25.4662935,65.0593177,14
+"Panthéon-Sorbonne University – Paris 1",2.344468,48.8469373,198
+"University of South Dakota",-96.925271,42.784118,9
+"Lille 2 University – Health and Law",3.0838866,50.6115951,200
+"Verona University",11.004076,45.43844,200
+"American University",-77.088468,38.93741,200
+"Bournemouth University",-1.8962463,50.742981,189
+"University of Brescia",10.217297,45.537837,199
+"Brno University of Technology",16.6033808,49.2017233,200
+"Ca’ Foscari University of Venice",12.3261971,45.4345319,200
+"University of Cagliari",9.1149594,39.2175754,196
+"Catholic University of the Sacred Heart",9.1771785,45.4621325,200
+"City University London",-0.1025445,51.5278249,195
+"Complutense University of Madrid",-3.7285872,40.4478246,200
+"Concordia University",-117.810409,33.65461,29
+"Dublin City University",-6.2567437,53.3861818,193
+"East China University of Science and Technology",121.4251069,31.1408757,123
+"Florida International University",-80.3739487,25.7565756,49
+"University of Genoa",8.9267336,44.4149149,200
+"Howard University",-77.0194377,38.9226843,199
+"Indian Institute of Technology Madras",80.2339031,12.9908081,129
+"University of Ioannina",20.8450898,39.6158593,8
+"Iran University of Science and Technology",51.5023103,35.742474,12
+"University of Kaiserslautern",7.7556483,49.4253647,52
+"Louisiana State University",-91.1800023,30.4132579,74
+"Makerere University",32.5709881,0.329183,183
+"Marche Polytechnic University",13.5127759,43.6171442,132
+"University of Nantes",-1.5559718,47.2095499,199
+"National and Kapodistrian University of Athens",23.7786871,37.968196,199
+"National Institute of Applied Sciences of Lyon (INSA Lyon)",4.878273,45.782938,200
+"National Yang-Ming University",121.5137024,25.1230017,63
+"University of Neuchâtel",6.9387031,46.9938549,36
+"University of Nice Sophia Antipolis",7.2896737,43.7099458,200
+"The Open University",-0.7104769,52.0250914,87
+"Oxford Brookes University",-1.29121,51.7399245,176
+"University of Palermo",13.369838,38.11779,200
+"University of Parma",10.3257786,44.8011856,200
+"RMIT University",144.9639667,-37.8085495,198
+"University of Rome II – Tor Vergata",12.5978728,41.850142,198
+"University of San Francisco",-122.450683,37.7766466,198
+"University of Saskatchewan",-106.6313582,52.1334003,97
+"University of Siena",11.3330265,43.3191557,183
+"Southern Cross University",153.2994676,-28.8186387,17
+"Tampere University of Technology",23.8586408,61.4497952,11
+"University of Ulsan",129.256337,35.543932,16
+"Ulster University",-6.6751586,55.1497581,29
+"Université du Québec à Montréal",-73.5605955,45.5125995,200
+"Universiti Teknologi Malaysia",103.6381827,1.55849,12
+"University of Urbino Carlo Bo",12.6367849,43.7243069,43
+"Xiamen University",118.097855,24.4373484,193
+"American University of Beirut",35.4811142,33.90113,125
+"Amirkabir University of Technology",51.4091693,35.7040861,38
+"University of Arkansas",-94.1736551,36.0678324,60
+"Babeş-Bolyai University",23.5912762,46.7677955,134
+"University of the Basque Country",-2.673645,42.838485,200
+"Bauman Moscow State Technical University",37.6839719,55.7668614,200
+"Ben-Gurion University of the Negev",34.801461,31.262218,41
+"Blaise Pascal University",3.1123259,45.7640856,197
+"University of Burgundy",5.0703447,47.3117503,198
+"University of Canberra",149.0840869,-35.2381609,31
+"University of Catania",15.0864981,37.5035647,200
+"Central Queensland University",150.5185512,-23.324376,7
+"University of Chile",-70.6509277,-33.4445204,199
+"China Agricultural University",116.353052,40.004171,193
+"Chung-Ang University",126.956954,37.504147,137
+"Czech Technical University in Prague",14.3912841,50.1030364,200
+"De Montfort University",-1.139599,52.6291014,184
+"East China Normal University",121.4066077,31.227812,189
+"Edith Cowan University",115.7732882,-31.7524053,22
+"Federal University of Rio de Janeiro",-43.1753638,-22.9541412,195
+"University of Granada",-3.600767,37.183853,199
+"University of Haifa",35.0195184,32.7614296,14
+"Huazhong University of Science and Technology",114.413666,30.507905,172
+"Indian Institute of Technology Guwahati",91.6950635,26.1929025,12
+"Jadavpur University",88.3698181,22.4996111,68
+"Kanazawa University",136.7087378,36.5459854,20
+"King Fahd University of Petroleum and Minerals",50.1445651,26.3104682,3
+"University of La Laguna",-16.3127175,28.4848482,199
+"University of Limerick",-8.5745593,52.6687383,76
+"Manchester Metropolitan University",-2.238469,53.471055,192
+"University of Maribor",15.6433073,46.5591885,54
+"Masaryk University",16.605384,49.1986299,200
+"Memorial University of Newfoundland",-52.7329053,47.5737975,72
+"Missouri University of Science and Technology",-91.7755727,37.953451,9
+"Montana State University",-111.049325,45.667548,44
+"Monterrey Institute of Technology and Higher Education",-121.8970109,36.5993006,82
+"National Taiwan Normal University",121.5273658,25.0254571,199
+"National Technical University of Athens",23.7827066,37.9783769,199
+"New Mexico State University",-106.7447566,32.2847481,32
+"University of North Carolina at Greensboro",-79.8098429,36.0674908,101
+"Oklahoma State University",-97.0737222,36.1270236,28
+"Osaka City University",135.505417,34.5919232,200
+"Otto von Guericke University of Magdeburg",11.647715,52.1401928,75
+"University of Oviedo",-5.8462773,43.3617179,200
+"Palacký University in Olomouc",17.2600153,49.5954268,148
+"Pontifical Catholic University of Rio de Janeiro (PUC-Rio)",-43.2333608,-22.9782927,197
+"Portland State University",-122.6846429,45.5119323,197
+"University of Pretoria",28.2314476,-25.7545492,92
+"Pusan National University",129.0797639,35.2336948,56
+"Quaid-i-azam University",73.1380962,33.7462228,1
+"University of Regina",-104.58849,50.4170134,64
+"University of Rennes 1",-1.67296,48.1159299,200
+"University of Salamanca",-5.6669251,40.9613376,200
+"University of Santiago de Compostela",-8.545475,42.8799935,200
+"Semmelweis University",19.0673266,47.4873553,200
+"University of Seville",-5.9912307,37.3807579,199
+"Université de Sherbrooke",-71.9255204,45.3768886,58
+"Soochow University",120.639406,31.3094277,198
+"South China University of Technology",113.344683,23.151326,195
+"Tallinn University of Technology",24.671431,59.395884,28
+"Tehran University of Medical Sciences",51.3941258,35.7058568,40
+"University of Texas at Arlington",-97.1140881,32.7311482,64
+"Tianjin University",117.1748329,39.1110824,191
+"University of Toledo",-83.6125896,41.662156,53
+"Tongji University",121.5045889,31.2823103,198
+"University of Tulsa",-95.9445808,36.1511173,116
+"United Arab Emirates University",55.6765345,24.1994378,3
+"University of Wisconsin-Milwaukee",-87.8819686,43.078263,198
+"Xi’an Jiaotong University",108.98371,34.250575,196
+"University of A Coruña",-8.412419,43.3328827,200
+"Adam Mickiewicz University",16.915402,52.4083974,199
+"AGH University of Science and Technology",19.9136192,50.0668858,200
+"Ajou University",127.0463559,37.2821251,86
+"University of Alcalá",-3.3628674,40.4824722,200
+"Alexandru Ioan Cuza University",27.5721117,47.1744351,78
+"Aligarh Muslim University",78.0781901,27.9135016,3
+"American University of Sharjah",55.4927023,25.3120502,2
+"Amrita University",76.9025656,10.9001731,NA
+"Anadolu University",30.4991884,39.7912871,38
+"Andhra University",83.320085,17.728816,70
+"University of Antioquia",-75.5691113,6.2669533,199
+"Aristotle University of Thessaloniki",22.9592224,40.6308283,199
+"Asia University, Taiwan",120.686421,24.046532,4
+"Athens University of Economics and Business",23.7324354,37.9940805,199
+"Auckland University of Technology",174.7673188,-36.8532194,200
+"Austral University of Chile",-73.2516591,-39.8061639,30
+"Beijing Institute of Technology",116.311256,39.957127,196
+"Belarusian State University",27.5460609,53.8938988,143
+"University of Belgrade",20.4575676,44.8184339,198
+"Birla Institute of Technology and Science, Pilani",75.5869784,28.3639812,4
+"University of Bradford",-1.763463,53.790788,161
+"University of Brasília",-47.8706311,-15.7631573,172
+"University of Brighton",-0.119365,50.842116,182
+"University of Bucharest",26.1016731,44.4354447,192
+"Budapest University of Technology and Economics",19.0554834,47.4813261,200
+"Cairo University",31.2068151,30.0223946,47
+"University of Calcutta",88.3629295,22.5747806,189
+"California State University, Long Beach",-118.1140904,33.7838235,108
+"Capital Medical University",116.352877,39.865173,151
+"University of Castilla-La Mancha",-3.9266844,38.9933175,163
+"University of Central Lancashire",-2.7084395,53.7619242,143
+"University of Cergy-Pontoise",2.074954,49.039076,159
+"Chang Gung University",121.389184,25.0341666,22
+"Carlos III University of Madrid",-3.7268114,40.3161385,200
+"University of Chemistry and Technology, Prague",14.389611,50.103301,200
+"Chiang Mai University",98.9546758,18.8082874,200
+"Chiba University",140.1024122,35.6262467,185
+"China University of Geosciences (Wuhan)",114.4020037,30.518184,197
+"China University of Petroleum (Beijing)",116.247116,40.219466,40
+"Chonbuk National University",127.1293628,35.8468291,57
+"Chongqing University",106.454213,29.560254,150
+"Chonnam National University",NA,NA,NA
+"Chulalongkorn University",100.5320528,13.7383777,199
+"Chung Yuan Christian University",121.2428031,24.9569013,86
+"Chungnam National University",127.3459548,36.3699872,62
+"Comenius University in Bratislava",17.115559,48.1411309,198
+"Coventry University",-1.5037461,52.4071747,182
+"Dalian University of Technology",121.529021,38.880381,24
+"University of Debrecen",21.6214756,47.5535039,59
+"University of Delhi",77.1638282,28.5842523,87
+"University of Dhaka",90.3924947,23.7315492,20
+"Dublin Institute of Technology",-6.2676448,53.3386609,193
+"Ehime University",132.7715089,33.8502377,160
+"University of Electronic Science and Technology of China",104.100361,30.675104,196
+"Eötvös Loránd University",19.0585445,47.4905698,200
+"Erciyes University",35.5301767,38.7073405,8
+"Federal University of Bahia",-38.5089752,-13.0024602,199
+"Federal University of Minas Gerais",-43.9663841,-19.8690878,200
+"Federal University of Paraná (UFPR)",-49.2617658,-25.4269081,199
+"Federal University of Rio Grande do Sul",-51.2203322,-30.0335453,200
+"Federal University of Santa Catarina",-48.5235907,-27.599144,165
+"Federal University of São Carlos",-47.8811216,-21.979011,91
+"Federal University of Viçosa",-42.8682513,-20.7643812,51
+"Federal University of Lavras",-44.9775718,-21.2292703,50
+"Feng Chia University",120.6467054,24.1788155,200
+"Fu Jen Catholic University",121.4327592,25.0362991,78
+"Gdańsk University of Technology",18.6163277,54.3716751,156
+"University of Ghana",-0.1962244,5.650562,44
+"Gifu University",136.7365752,35.4662236,8
+"Glasgow Caledonian University",-4.2508041,55.8661538,199
+"University of Greenwich",-0.0059828,51.4833425,193
+"Hacettepe University",32.7299184,39.8705295,30
+"University of Huddersfield",-1.7770916,53.6431171,155
+"Hunan University",112.943822,28.179012,191
+"University of Ibadan",3.8986279,7.4454027,11
+"University of Indonesia",106.8295587,-6.3680739,58
+"Inha University",126.653116,37.449627,58
+"I-Shou University",120.4063526,22.7258536,3
+"Istanbul University",28.961838,41.0126037,200
+"Jilin University",125.348658,43.873742,197
+"University of Jordan",35.8730077,32.0134626,8
+"Jordan University of Science and Technology",35.9912257,32.4950392,NA
+"Juntendo University",139.7608345,35.7021299,198
+"K.N. Toosi University of Technology",51.4127853,35.7627046,26
+"Kaohsiung Medical University",120.3097772,22.6473733,199
+"Khon Kaen University",102.8266222,16.4731646,44
+"Kingston University",-0.303931,51.4031134,181
+"Kinki University",135.587042,34.65123,144
+"Konkuk University",127.0793428,37.5407625,146
+"Kumamoto University",130.7278725,32.8140382,200
+"Kyungpook National University",128.6113282,35.8900521,72
+"Kyushu Institute of Technology",130.8392259,33.8941523,181
+"University of Latvia",24.1163132,56.9508098,199
+"Lille 1 University – Science and Technology",3.138063,50.609049,144
+"University of Lincoln",-0.5504171,53.2287474,106
+"University of Ljubljana",14.5041552,46.0491938,194
+"Miami University",-84.7308768,39.5105334,15
+"Middlesex University",-0.2282466,51.5893495,190
+"Moscow Institute of Physics and Technology",37.51821,55.930215,20
+"University of Murcia",-1.1694307,38.0182593,200
+"Nagasaki University",129.8646586,32.7861288,95
+"University of Nairobi",36.816353,-1.280701,197
+"National Chengchi University",121.576074,24.987516,56
+"National Chung Cheng University",120.4728831,23.5633761,7
+"National Chung Hsing University",120.6748697,24.123715,169
+"National Taipei University of Technology",121.5354983,25.0422138,199
+"National University of Córdoba",-64.1855702,-31.4354855,200
+"National University of Science and Technology (MISiS)",37.6090761,55.728306,198
+"National University of Sciences and Technology",72.9931107,33.6426397,7
+"Niigata University",138.942539,37.86701,4
+"Northumbria University",-1.607595,54.9768904,188
+"Northwestern Polytechnical University",108.9137925,34.2436153,193
+"Nottingham Trent University",-1.1524723,52.9579294,181
+"Oakland University",-83.2073803,42.6695562,26
+"Ocean University of China",120.335285,36.061242,193
+"Ohio University",-82.1013889,39.324358,28
+"Okayama University",133.9222225,34.6873868,198
+"Osaka Prefecture University",135.5069805,34.5454313,157
+"University of Pardubice",15.7694,50.04816,73
+"Paris-Sorbonne University – Paris 4",2.3432774,48.8484556,198
+"University of Patras",21.7871827,38.28657,20
+"University of Pécs",18.237722,46.0741828,53
+"Pontifical Catholic University of Paraná",-49.2520094,-25.4510637,198
+"Pontifical Catholic University of Rio Grande do Sul (PUCRS)",-51.1743354,-30.0606457,200
+"Pontifical Catholic University of Valparaíso",-71.605872,-33.044407,126
+"Prince of Songkla University",100.4992064,7.0064179,68
+"Qatar University",51.4871693,25.3769499,4
+"Rio de Janeiro State University (UERJ)",-43.236132,-22.911174,199
+"Rochester Institute of Technology",-77.6705143,43.0861017,30
+"Saitama University",139.608483,35.8654477,199
+"University of Salford",-2.270755,53.484586,191
+"University of Santiago, Chile (USACH)",-70.6861315,-33.4517605,200
+"São Paulo State University (UNESP)",-46.6409474,-23.5479026,200
+"Savitribai Phule Pune University",73.824618,18.552338,101
+"University of Science and Technology Beijing",116.357096,39.990249,192
+"Sejong University",127.075092,37.549035,132
+"Shahid Beheshti University",51.3946864,35.7990628,15
+"Shanghai University",121.3930893,31.3149209,73
+"Shantou University",116.639943,23.411124,2
+"Sheffield Hallam University",-1.4660659,53.3790519,180
+"Shinshu University",137.9789403,36.2500574,69
+"Showa University",139.7037786,35.6082833,200
+"Sichuan University",104.1872595,30.8232956,106
+"University of Silesia in Katowice",19.0287157,50.2607501,141
+"Slovak University of Technology in Bratislava",17.1177,48.154573,197
+"Sogang University",126.9407529,37.5513365,159
+"Sophia University",139.732278,35.682982,199
+"University of South Africa",28.1992637,-25.7676588,73
+"Southern Federal University",39.728334,47.224719,179
+"University of Southern Mississippi",-89.3356963,31.3303296,36
+"University of Southern Queensland",151.9311441,-27.6029207,14
+"Suez Canal University",32.269729,30.620533,NA
+"Sultan Qaboos University",58.1730322,23.5909657,1
+"Suranaree University of Technology",102.0201115,14.881406,2
+"University of Szeged",20.1461195,46.2501561,73
+"Taipei Medical University",121.5616183,25.0253544,199
+"Taras Shevchenko National University of Kyiv",30.5104024,50.4420868,200
+"Technical University of Madrid",-3.7192798,40.4486372,200
+"University of Tehran",51.386103,35.7286849,33
+"University of Texas at El Paso",-106.5046216,31.7708544,122
+"Texas Tech University",-101.8782822,33.5842591,60
+"Tokai University",139.6845412,35.6644464,199
+"Tokushima University",134.559832,34.070001,95
+"Tokyo University of Marine Science and Technology",139.7470855,35.6268386,200
+"Tokyo University of Science",139.741398,35.699399,198
+"Tomsk State University",84.9478675,56.4694917,134
+"Tottori University",134.1733411,35.5150797,4
+"Toyohashi University of Technology",137.4086346,34.7017563,5
+"Universiti Kebangsaan Malaysia",101.7774225,2.929997,1
+"Universiti Putra Malaysia",101.71629,2.991686,15
+"Universiti Sains Malaysia",100.3025177,5.3559337,27
+"Universiti Teknologi MARA",101.5037611,3.0696089,17
+"Ural Federal University",60.653668,56.844087,188
+"V.N. Karazin Kharkiv National University",36.228139,50.004537,160
+"Vilnius University",25.2876469,54.6825757,176
+"Warsaw University of Technology",21.0080857,52.2212012,198
+"University of West Bohemia",13.351554,49.723644,156
+"University of the West of England",-2.5483131,51.5017572,170
+"West University of Timişoara",21.2319146,45.7471643,93
+"University of Westminster",-0.1429409,51.5169302,195
+"Xidian University",108.837221,34.128921,8
+"Yeungnam University",128.7575746,35.8322424,16
+"Yıldız Technical University",29.0106553,41.0520861,200
+"Yokohama City University",139.618239,35.33385,29
+"Yokohama National University",139.592022,35.4729252,199

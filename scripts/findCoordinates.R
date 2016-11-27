@@ -21,11 +21,11 @@ installPackage(c("ggmap", "dplyr", "jsonlite"))
 # Output: returns a data frame with additional columns "lon" (longitudes) and
 #         "lat" (latitudes) of each university.
 findCoordinates <- function(dataset, output_name = "output") {
-  try(if (!'university_name' %in% names(dataset)) {
+  if (!'university_name' %in% names(dataset)) {
     stop("Error: \"university_name\" column not found, check you spelling")
-  })
+  }
   
-  dataset$university_names <- factorToCharOrNum(dataset$university_name)
+  dataset$university_name <- factorToCharOrNum(dataset$university_name)
   unique_names <- unique(dataset$university_names) # get unique names 
   
   lon_lat <- geocode(unique_names)  # output lon and lat from Google Geocode
