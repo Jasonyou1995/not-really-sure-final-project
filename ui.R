@@ -13,8 +13,8 @@ library(shiny)
 library(markdown)
 
 # Jason
-source("scripts/installPackage.R")
-installPackage(c(...))
+#source("scripts/installPackage.R")
+#installPackage(c(...))
 
 # Alison
 source('alisons_scripts/script.R')
@@ -33,9 +33,22 @@ navbarPage("World Wide Universities",
            tabPanel("Rankings Plot",
                     sidebarLayout(
                       sidebarPanel(
-                        radioButtons("plotType", "Plot type",
-                                     c("Scatter"="p", "Line"="l"))
-                      ), 
+                        # Gets year input
+                        selectInput("year", label = h3("Select Year"), 
+                                    choices = list("All Years" = 'All', "2011" = 2011, "2012" = 2012, "2013" = 2013, 
+                                                   "2014" = 2014, "2015" = 2015, "2016" = 2016), selected = 'All'),
+                        # Gets country input
+                        textInput("country", label = h3("Enter Name of Country"), value = "All"),
+                        # Gets variable input
+                        radioButtons("variable", label = h3("Type of Variable"),
+                                     choices = list("Total Score" = 'total_score', "Teaching Score" = 'teaching', 
+                                                    "Research Score" = 'research', "Income Score" = 'income', 
+                                                    "Number of Students" = 'num_students', 
+                                                    "Student to Staff Ratio" = 'student_staff_ratio',
+                                                    "Percentage of International Students" = 'international_students',
+                                                    "Female to Male Ratio" = 'female_male_ratio'), selected = 'total_score')
+                       
+                        ),
                       mainPanel(plotOutput("Ratings"))
                     )
            ),
@@ -48,5 +61,6 @@ navbarPage("World Wide Universities",
            )
            ######################################
 )
+
 #####################################################
 

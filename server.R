@@ -10,8 +10,8 @@
 # Scripts and Modules: 
 ##################################################
 # Jason
-source("scripts/installPackage.R")
-installPackage(c(...))
+#source("scripts/installPackage.R")
+#installPackage(c(...))
 
 # Alison
 source('alisons_scripts/script.R')
@@ -26,7 +26,7 @@ source('alisons_scripts/script.R')
 function(input, output, session) {
   # Alison's Plot
   output$Ratings <- renderPlot({
-    CreatePlot(input$x)
+    CreatePlot(input$year, input$country, input$variable)
   })
   
   # Put your graph here
