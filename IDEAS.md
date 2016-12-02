@@ -13,6 +13,7 @@
 8. Sorting the data by different variables and then visualize all of theses rankings (can be grouped by one Shiny app)
 9. Using Google Knowledge Graph to get information about each university
 
+
 ## Alison: 
 
 My idea was to have three pages, one being a wordly map, another being a scatter plot (with many factors) and lastly an overall rating.
