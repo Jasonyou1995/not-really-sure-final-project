@@ -25,8 +25,8 @@ source('alisons_scripts/script.R')
 
 function(input, output, session) {
   # Alison's Plot
-  output$Ratings <- renderPlot({
-    CreatePlot(input$year, input$country, input$variable)
+  output$Ratings <- renderPlotly({
+    return(CreatePlot(input$year, input$country, input$variable))
   })
   
   # Put your graph here

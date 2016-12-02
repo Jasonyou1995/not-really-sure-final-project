@@ -38,22 +38,19 @@ CreatePlot <- function(in.year, in.country, in.value){
     data <- data %>% 
       filter(country %in% in.country)
   }
-  final <- data %>% 
+  final.data <- data %>% 
     select_('university_name', 'country', 'year', in.value) %>% 
-    filter(!is.na(income))
+    filter(!is.na(in.value))
   
-  p <- plot_ly(final, x = ~university_name, y = ~in.value, text = ~university_name, 
-               type = 'scatter', mode = 'markers', color = ~in.value, colors = 'Reds'
-              # marker = list(size = ~in.value, opacity = 0.5)
-               ) %>%
-    layout(title = paste(in.value, "in", in.year, "in", in.country),
+  plot <- plot_ly(final.data, x = ~university_name, y = ~in.value, text = ~university_name, 
+                  type = 'scatter', mode = 'markers',
+                  marker = list(size = 2, opacity = 0.5, color = 'rgb(255, 65, 54)')) %>%
+    layout(title = paste(in.value, "in the year: ", in.year, "in the country: ", in.country),
            xaxis = list(showgrid = FALSE),
            yaxis = list(showgrid = FALSE))
-  return(p)
-  
+  return(plot)
 }
 
-CreatePlot(2011, 'Canada', 'income') 
 
 
 # Usable code end
@@ -61,29 +58,4 @@ CreatePlot(2011, 'Canada', 'income')
 
 
 
-
-# For Testing Purposes Only
-##############################################################################
-test <- data %>% 
-  filter(year %in% 2011)
-test <- test %>% 
-  filter(country %in% 'United States of America')
-test <- test %>% 
-  select_('university_name', 'income') %>% 
-  filter(!is.na(income))
-test[, 2] <- as.numeric(as.character( test[, 2] ))
-
-university <- c('Washingotn', 'Oregon', 'Colorado')
-rank <- c(10, 30, 25)
-
-test2 <- data.frame(university, rank)
-
-p <- plot_ly(test2, x = ~university, y = ~rank, 
-             type = 'scatter', mode = 'markers', color = ~rank, colors = 'Reds',
-             marker = list(opacity = 0.5)) %>%
-  layout(title = '',
-         xaxis = list(showgrid = FALSE),
-         yaxis = list(showgrid = FALSE))
-p
-##############################################################################
 
