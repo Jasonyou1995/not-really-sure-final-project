@@ -10,7 +10,7 @@ source("scripts/factorToCharOrNum.R")
 installPackage(c("leaflet", "dplyr"))
 
 # Mark all the Universities on a leaflet world map
-# User can select the year 
+# User can select the year
 worldMap <- function(my_year = 2016) {
   # my_year must be in 2011-2016, otherwise throws an error
   if (!my_year %in% 2011:2016) {
