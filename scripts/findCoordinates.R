@@ -32,7 +32,7 @@ findCoordinates <- function(dataset, output_name = "output") {
   lon_lat$university_name <- unique_names
   # store the original dataset
   write.csv(dataset, file = paste0("data/temp/old/", output_name, "_old_",
-                                  date(), ".csv"), row.names = FALSE)
+                                   date(), ".csv"), row.names = FALSE)
   # in case lose the data by error
   write.csv(lon_lat, file = paste0("data/temp/", "lon_lat_", output_name,
                                    "_", date(), ".csv"),
@@ -66,7 +66,7 @@ findCoordinates <- function(dataset, output_name = "output") {
 #         Google Place API (a more general search method)
 replaceNA <- function(dataset) {
   dataset.NA <- filter(dataset, is.na(lon) | is.na(lat))  # filter the NA rows
- 
+  
   # get the answers relate to lon, lat, and the analysis
   answer <- getAnswer(dataset.NA)
   unique_table <- answer$unique_table

@@ -7,7 +7,7 @@
 # Input: a character vector contains the packages need to install
 installPackage <- function(packages) {
   try(if (!is.character(packages)) {
-    stop("Error: invalid input. \"package\" must be a character vector")
+    stop("Error: invalid input. \"packages\" must be a character vector")
   })
   
   new.pkg <- packages[!(packages %in% installed.packages()[, "Package"])]
