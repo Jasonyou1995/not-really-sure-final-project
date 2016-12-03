@@ -41,9 +41,8 @@ leaflet(df) %>% addTiles() %>%
 
 # Demo 4
 leaflet(quakes) %>% addTiles() %>% addMarkers(
-  clusterOptions = markerClusterOptions()  # find lon/lng/long/longitude and
+  clusterOptions = markerClusterOptions())  # find lon/lng/long/longitude and
                                            # lat/latitude automatically
-)
 
 # Demo 5
 leaflet(df) %>% addTiles() %>% addCircleMarkers()
