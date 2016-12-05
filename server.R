@@ -7,15 +7,20 @@
 # Shiny app server
 ##################################################
 
-# Scripts and Modules: 
+#Script Sources and Modules: 
 ##################################################
-# Jason
-#source("scripts/installPackage.R")
-#installPackage(c(...))
+source("scripts/installPackage.R")
+installPackage(c("shinythemes", "shiny", "leaflet", "markdown"))
 
 # Alison
 source('alisons_scripts/script.R')
 ##################################################
+
+# Jason
+source("scripts/buildLocalMap.R")
+source("scripts/buildWorldMap.R")
+##################################################
+
 
 # Main Function: 
 ##################################################
@@ -27,6 +32,15 @@ function(input, output, session) {
   # Alison's Plot
   output$Ratings <- renderPlotly({
     return(CreatePlot(input$year, input$country, input$variable))
+  })
+  
+  # Jason's Plot: World Map and Local Map
+  output$local_map <- renderLeaflet({
+    localMap(my_university = input$university)
+  })
+  
+  output$world_map <- renderLeaflet({
+    worldMap(my_year = input$select_year)
   })
   
   # Put your graph here

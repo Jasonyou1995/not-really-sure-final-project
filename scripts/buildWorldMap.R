@@ -24,36 +24,43 @@ worldMap <- function(my_year = 2016) {
   selected_data <- timesData %>% filter(year == my_year)
   
   # contents show in popup
-  attach(selected_data)  # directly access all the variable names
   content <- paste(sep = "<br/>",
-                   paste0("<b style=\"color:DarkSalmon;\">", 
-                          university_name,
-                          " <span style=\"color:Turquoise;\">(", 
+                   paste0("<b style=\"color:LightSeaGreen;\">", 
+                          selected_data$university_name,
+                          " <span style=\"color:Wheat;\">(", 
                           my_year, ")</span>", "</b>"),
                    paste0("Country/Region: ", 
-                          "<i style=\"color:DeepPink;\">", country, "</i>"),
+                          "<i style=\"color:DeepPink;\">", 
+                          selected_data$country, "</i>"),
                    paste0("World Rank: ", 
-                          "<i style=\"color:DeepPink;\">", world_rank, "</i>"),
+                          "<i style=\"color:DeepPink;\">", 
+                          selected_data$world_rank, "</i>"),
                    paste0("Female/Male Ratio: ", 
                           "<i style=\"color:DeepPink;\">",
-                          female_male_ratio, "</i>"),
+                          selected_data$female_male_ratio, "</i>"),
                    paste0("International Students: ", 
                           "<i style=\"color:DeepPink;\">", 
-                          international_students, "</i>"),
+                          selected_data$international_students, "</i>"),
                    paste0("Number of Students: ", 
                           "<i style=\"color:DeepPink;\">", 
-                          num_students, "</i>"),
+                          selected_data$num_students, "</i>"),
                    paste0("Student/Staff Ratio: ", 
                           "<i style=\"color:DeepPink;\">",
-                          student_staff_ratio, "</i>"))
-  # detach(selected_data)
+                          selected_data$student_staff_ratio, "</i>"))
+  
+  # make university icon
+  university_icon <- makeIcon(
+    iconUrl = "img/university_icon.png",
+    iconWidth = 20, iconHeight = 20
+  )
   
   world_map <- leaflet(selected_data) %>% 
     addTiles() %>%
     addMarkers(clusterOptions = markerClusterOptions(), 
                lng = ~lon,
                lat = ~lat,
-               popup = ~content)
+               popup = ~content,
+               icon = university_icon)
   
   return(world_map)  # show the map
 }

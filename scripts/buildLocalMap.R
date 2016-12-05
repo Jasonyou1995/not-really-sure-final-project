@@ -11,6 +11,7 @@ installPackage(c("leaflet", "dplyr"))
 
 
 localMap <- function(my_university = "University of Washington Seattle") {
+  
   # The bar coordinates around each University (radius = 5000 meters)
   bar_coord <- get(load("data/newData/barData/bar_coordinates.Rda"))
   
@@ -33,23 +34,37 @@ localMap <- function(my_university = "University of Washington Seattle") {
   content <- paste(sep = "<br/>",
                    paste0("<b style=\"color:DarkSalmon;\">", 
                           my_university, "</b>"),
-                   paste0("Number of bars within 5000 meters: ",
+                   paste0("Number of bars around (5,000 m): ",
                           "<b style=\"color:DeepPink;\">", bar_count, "</b>"))
   
   # store the data used for ploting map
   plot_data <- rbind(selected_university, selected_bars)
   
   # Create a palette that maps factor levels to colors
-  pal <- colorFactor(c("Tomato", "DeepSkyBlue"), 
+  pal <- colorFactor(c("HotPink", "Ivory"), 
                      domain = c("University", "Bar"))
   
+  # make university icon
+  university_icon <- makeIcon(
+    iconUrl = "img/university_icon.png",
+    iconWidth = 36, iconHeight = 36
+  )
+  
+  # plot the map in the location of the given University, and mark the bars
   local_map <- leaflet(plot_data) %>% addTiles() %>%
-    addCircleMarkers(
-      radius = ~ifelse(type == "Bar", 6, 66),
+    addMarkers(lng = ~selected_university$lon, 
+               lat = ~selected_university$lat,
+               icon = university_icon,
+               popup = ~content) %>% 
+    addCircles(
+      lng = ~lon,
+      lat = ~lat,
+      weight = 3,
+      radius = ~ifelse(type == "Bar", 6, 5000),
       color = ~pal(type),
-      stroke = FALSE,
       fillOpacity = 0.66,
-      popup = ~ifelse(type == "University", content, "This is a bar..."))
+      popup = ~ifelse(type == "University", content, "This is a bar...")
+    )
   
   return(local_map)
 }

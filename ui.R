@@ -2,23 +2,22 @@
 ##################################################
 # INFO 201, Autumn 2016, Secton AB
 # Team name: Not Really Sure
-# Comtributors: Jason You (please add your name in here, if you contributed)
+# Comtributors: Jason You, Alison
 
 # Shiny app ui
 ##################################################
 
 #Script Sources and Modules: 
 ##################################################
-library(shiny)
-library(markdown)
-
-# Jason
-#source("scripts/installPackage.R")
-#installPackage(c(...))
+source("scripts/installPackage.R")
+installPackage(c("shinythemes", "shiny", "leaflet", "markdown"))
 
 # Alison
 source('alisons_scripts/script.R')
 ##################################################
+
+# Jason
+university_name <- get(load("data/newData/university_name.Rda"))
 
 # Main: 
 ##################################################
@@ -26,41 +25,97 @@ source('alisons_scripts/script.R')
 # see example: https://shiny.rstudio.com/gallery/navbar-example.html
 # for more information on how to structure your portion of this function
 
-# Creates Navigation bar
-navbarPage("World Wide Universities",
-           # Alison's Tab
-           ######################################
-           tabPanel("Rankings Plot",
-                    sidebarLayout(
-                      sidebarPanel(
-                        # Gets year input
-                        selectInput("year", label = h3("Select Year"), 
-                                    choices = list("All Years" = 'All', "2011" = 2011, "2012" = 2012, "2013" = 2013, 
-                                                   "2014" = 2014, "2015" = 2015, "2016" = 2016), selected = 'All'),
-                        # Gets country input
-                        textInput("country", label = h3("Enter Name of Country"), value = "All"),
-                        # Gets variable input
-                        radioButtons("variable", label = h3("Type of Variable"),
-                                     choices = list("Total Score" = 'total_score', "Teaching Score" = 'teaching', 
-                                                    "Research Score" = 'research', "Income Score" = 'income', 
-                                                    "Number of Students" = 'num_students', 
-                                                    "Student to Staff Ratio" = 'student_staff_ratio',
-                                                    "Percentage of International Students" = 'international_students',
-                                                    "Female to Male Ratio" = 'female_male_ratio'), selected = 'total_score')
-                       
-                        ),
-                      mainPanel(plotOutput("Ratings"))
-                    )
-           ),
-           ######################################
-           
-           # Summary Tab
-           ######################################
-           tabPanel("Summary",
-                    includeMarkdown("IDEAS.md")
-           )
-           ######################################
+# Define UI for application that visualizing the University data
+shinyUI(
+  
+  # Use shiny theme "yeti"
+  navbarPage("World Top Universites", theme = shinytheme("yeti"),
+             
+     # Jason: Visualize all the top Universities in the world in different years 
+     tabPanel("World map",
+        div(class="outer",
+            tags$head(
+              # Include the CSS features
+              includeCSS("style.css")
+            ),
+            
+            leafletOutput("world_map", width = "100%", height = "100%"),
+            
+            absolutePanel(id = "controls", fixed = TRUE, draggable = TRUE,
+                          top = 66, left = "auto", right = 15, bottom = "auto",
+                          width = 330, height = "auto",
+                          
+                          h2("World Universities"),
+                          
+                          # select which year of the data (2011 to 2016) to use
+                          sliderInput("select_year", "Year of data to use:", 
+                                      min = 2011, max = 2016,
+                                      value = 2016, step = 1, ticks = FALSE
+                          )
+                          
+                          # plotOutput("")  # you can add plot to here
+            )
+        )
+     ),
+   
+     # Jason: The local map to show the bars around the given University
+     tabPanel("University and Bar",
+        div(class="outer",
+            tags$head(
+              # Include the CSS features
+              includeCSS("style.css")
+            ),
+            
+            leafletOutput("local_map", width = "100%", height = "100%"),
+            absolutePanel(id = "controls", fixed = TRUE, draggable = TRUE,
+                          top = 60, left = "auto", right = 20, bottom = "auto",
+                          width = 330, height = "auto",
+                          
+                          h2("University and Bars"),
+                          
+                          # select which year of the data (2011 to 2016) to use
+                          selectInput("university", "University", university_name,
+                                      selected = "University of Washington Seattle")
+                          
+                          # plotOutput("") # shown in the legend
+            )
+         )
+      ),
+  
+
+               # Alison's Tab
+               ######################################
+               tabPanel("Rankings Plot",
+                        sidebarLayout(
+                          sidebarPanel(
+                            # Gets year input
+                            selectInput("year", label = h3("Select Year"), 
+                                        choices = list("All Years" = 'All', "2011" = 2011, "2012" = 2012, "2013" = 2013, 
+                                                       "2014" = 2014, "2015" = 2015, "2016" = 2016), selected = 'All'),
+                            # Gets country input
+                            textInput("country", label = h3("Enter Name of Country"), value = "All"),
+                            # Gets variable input
+                            radioButtons("variable", label = h3("Type of Variable"),
+                                         choices = list("Total Score" = 'total_score', "Teaching Score" = 'teaching', 
+                                                        "Research Score" = 'research', "Income Score" = 'income', 
+                                                        "Number of Students" = 'num_students', 
+                                                        "Student to Staff Ratio" = 'student_staff_ratio',
+                                                        "Percentage of International Students" = 'international_students',
+                                                        "Female to Male Ratio" = 'female_male_ratio'), selected = 'total_score')
+                           
+                            ),
+                          mainPanel(plotOutput("Ratings"))
+                        )
+               ),
+               ######################################
+               
+               # Summary Tab
+               ######################################
+               tabPanel("Summary",
+                        includeMarkdown("IDEAS.md")
+               )
+               ######################################
+    )
+    
+    #####################################################
 )
-
-#####################################################
-
