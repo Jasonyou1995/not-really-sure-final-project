@@ -42,7 +42,7 @@ shinyUI(
             leafletOutput("world_map", width = "100%", height = "100%"),
             
             absolutePanel(id = "controls", fixed = TRUE, draggable = TRUE,
-                          top = 66, left = "auto", right = 15, bottom = "auto",
+                          top = "auto", left = 15, right = "auto", bottom = 20,
                           width = 330, height = "auto",
                           
                           h2("World Universities"),
@@ -50,7 +50,8 @@ shinyUI(
                           # select which year of the data (2011 to 2016) to use
                           sliderInput("select_year", "Year of data to use:", 
                                       min = 2011, max = 2016,
-                                      value = 2016, step = 1, ticks = FALSE
+                                      value = 2015, step = 1, ticks = FALSE,
+                                      animate = TRUE
                           )
                           
                           # plotOutput("")  # you can add plot to here
