@@ -95,11 +95,11 @@ shinyUI(
                         sidebarLayout(
                           sidebarPanel(
                             # Gets year input
-                            selectInput("year", label = h3("Select Year"), 
+                            selectInput("get.year", label = h3("Select Year"), 
                                         choices = list("All Years" = 'All', "2011" = 2011, "2012" = 2012, "2013" = 2013, 
                                                        "2014" = 2014, "2015" = 2015, "2016" = 2016), selected = 'All'),
                             # Gets country input
-                            textInput("country", label = h3("Enter Name of Country"), value = "All"),
+                            textInput("get.country", label = h3("Enter Name of Country"), value = "All"),
                             # Gets variable input
                             radioButtons("variable", label = h3("Type of Variable"),
                                          choices = list("Total Score" = 'total_score', "Teaching Score" = 'teaching', 
@@ -110,7 +110,7 @@ shinyUI(
                                                         "Female to Male Ratio" = 'female_male_ratio'), selected = 'total_score')
                            
                             ),
-                          mainPanel(plotOutput("Ratings"))
+                          mainPanel(plotlyOutput("Ratings"))
                         )
                ),
                ######################################

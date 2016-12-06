@@ -34,10 +34,10 @@ source("scripts/buildWorldMap.R")
 # see example: https://shiny.rstudio.com/gallery/navbar-example.html
 # for more information on how to structure your portion of this function
 
-function(input, output, session) {
+shinyServer(function(input, output, session) {
   # Alison's Plot
   output$Ratings <- renderPlotly({
-    CreatePlot(input$year, input$country, input$variable)
+    return(CreatePlot(input$get.year, input$get.country, input$variable))
   })
   
   # Jason's Plot: World Map and Local Map
@@ -50,6 +50,6 @@ function(input, output, session) {
   })
   
   # Put your graph here
-}
+})
 ##################################################
 

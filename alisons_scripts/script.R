@@ -71,8 +71,6 @@ CreatePlot <- function(in.year, in.country, in.value){
   return(plot)
 }
 
-CreatePlot(2011, "Canada", 'num_students')
-
 # Usable code end
 ##############################################################################
 
