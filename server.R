@@ -16,6 +16,7 @@ require(shinythemes)
 require(shiny)
 require(leaflet)
 require(markdown)
+require(plotly)
 
 # Alison
 source('alisons_scripts/script.R')
@@ -36,7 +37,7 @@ source("scripts/buildWorldMap.R")
 function(input, output, session) {
   # Alison's Plot
   output$Ratings <- renderPlotly({
-    return(CreatePlot(input$year, input$country, input$variable))
+    CreatePlot(input$year, input$country, input$variable)
   })
   
   # Jason's Plot: World Map and Local Map
