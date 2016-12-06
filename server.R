@@ -9,8 +9,13 @@
 
 #Script Sources and Modules: 
 ##################################################
-source("scripts/installPackage.R")
-installPackage(c("shinythemes", "shiny", "leaflet", "markdown"))
+# source("scripts/installPackage.R")
+# installPackage(c("shinythemes", "shiny", "leaflet", "markdown"))  # deprecated
+# install.packages(c("shinythemes", "shiny", "leaflet", "markdown"))
+require(shinythemes)
+require(shiny)
+require(leaflet)
+require(markdown)
 
 # Alison
 source('alisons_scripts/script.R')

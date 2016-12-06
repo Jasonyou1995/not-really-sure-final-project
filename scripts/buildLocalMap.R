@@ -5,9 +5,12 @@
 # When integrated with Shiny app, user can choose any University in
 # the university_name list to see details around each university
 
-source("scripts/installPackage.R")
+# source("scripts/installPackage.R")
+# installPackage(c("leaflet", "dplyr"))  # deprecated
+# install.packages(c("leaflet", "dplyr"))
 source("scripts/factorToCharOrNum.R")
-installPackage(c("leaflet", "dplyr"))
+require(leaflet)
+require(dplyr)
 
 
 localMap <- function(my_university = "University of Washington Seattle") {

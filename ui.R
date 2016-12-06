@@ -9,8 +9,13 @@
 
 #Script Sources and Modules: 
 ##################################################
-source("scripts/installPackage.R")
-installPackage(c("shinythemes", "shiny", "leaflet", "markdown"))
+# source("scripts/installPackage.R")
+# installPackage(c("shinythemes", "shiny", "leaflet", "markdown"))  # deprecated
+# install.packages(c("shinythemes", "shiny", "leaflet", "markdown"))
+require(shinythemes)
+require(shiny)
+require(leaflet)
+require(markdown)
 
 # Alison
 source('alisons_scripts/script.R')
@@ -42,8 +47,8 @@ shinyUI(
             leafletOutput("world_map", width = "100%", height = "100%"),
             
             absolutePanel(id = "controls", fixed = TRUE, draggable = TRUE,
-                          top = "auto", left = 15, right = "auto", bottom = 20,
-                          width = 330, height = "auto",
+                          top = "auto", left = 25, right = "auto", bottom = 30,
+                          width = 330, height = 150,
                           
                           h2("World Universities"),
                           
