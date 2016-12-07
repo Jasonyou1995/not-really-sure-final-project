@@ -12,6 +12,7 @@
 
 * Contributions and scripts:
 	* Personal work:
+		* Built the *world and local maps* in the first two tabs
 		* **~/scripts/findCoordinates.R**: find all the longitudes and latitudes for each University in the dataset
 		* **~/scripts/nearbySearch.R**: find lon and lat of the bars within 5000 meters radius of the lon and lat of each University
 		* **~/scripts/countUniversity.R**: summarise the number of Universities in each country
