@@ -5,9 +5,12 @@
 # Build a `map` to visualize all the Universities on the world map
 # User can choose years from 2011 to 2016
 
-source("scripts/installPackage.R")
+# source("scripts/installPackage.R")
 source("scripts/factorToCharOrNum.R")
-installPackage(c("leaflet", "dplyr"))
+# installPackage(c("leaflet", "dplyr"))  # deprecated
+# install.packages(c("leaflet", "dplyr"))
+require(leaflet)
+require(dplyr)
 
 # Mark all the Universities on a leaflet world map
 # User can select the year

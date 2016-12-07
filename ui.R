@@ -9,8 +9,13 @@
 
 #Script Sources and Modules: 
 ##################################################
-source("scripts/installPackage.R")
-installPackage(c("shinythemes", "shiny", "leaflet", "markdown"))
+# source("scripts/installPackage.R")
+# installPackage(c("shinythemes", "shiny", "leaflet", "markdown"))  # deprecated
+# install.packages(c("shinythemes", "shiny", "leaflet", "markdown"))
+require(shinythemes)
+require(shiny)
+require(leaflet)
+require(markdown)
 
 # Alison
 source('alisons_scripts/script.R')
@@ -42,8 +47,8 @@ shinyUI(
             leafletOutput("world_map", width = "100%", height = "100%"),
             
             absolutePanel(id = "controls", fixed = TRUE, draggable = TRUE,
-                          top = "auto", left = 15, right = "auto", bottom = 20,
-                          width = 330, height = "auto",
+                          top = "auto", left = 25, right = "auto", bottom = 30,
+                          width = 330, height = 150,
                           
                           h2("World Universities"),
                           
@@ -90,11 +95,11 @@ shinyUI(
                         sidebarLayout(
                           sidebarPanel(
                             # Gets year input
-                            selectInput("year", label = h3("Select Year"), 
+                            selectInput("get.year", label = h3("Select Year"), 
                                         choices = list("All Years" = 'All', "2011" = 2011, "2012" = 2012, "2013" = 2013, 
                                                        "2014" = 2014, "2015" = 2015, "2016" = 2016), selected = 'All'),
                             # Gets country input
-                            textInput("country", label = h3("Enter Name of Country"), value = "All"),
+                            textInput("get.country", label = h3("Enter Name of Country"), value = "All"),
                             # Gets variable input
                             radioButtons("variable", label = h3("Type of Variable"),
                                          choices = list("Total Score" = 'total_score', "Teaching Score" = 'teaching', 
@@ -105,7 +110,7 @@ shinyUI(
                                                         "Female to Male Ratio" = 'female_male_ratio'), selected = 'total_score')
                            
                             ),
-                          mainPanel(plotOutput("Ratings"))
+                          mainPanel(plotlyOutput("Ratings"))
                         )
                ),
      tabPanel("Rankings By Country", 

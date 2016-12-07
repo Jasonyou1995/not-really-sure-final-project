@@ -9,10 +9,21 @@
 
 #Script Sources and Modules: 
 ##################################################
+
 source("scripts/installPackage.R")
 installPackage(c("shinythemes", "shiny", "leaflet", "markdown"))
 # Data for the universities of the world
 world_university_rankings <- read.csv("data/cwurData.csv", stringsAsFactors = FALSE)
+
+# source("scripts/installPackage.R")
+# installPackage(c("shinythemes", "shiny", "leaflet", "markdown"))  # deprecated
+# install.packages(c("shinythemes", "shiny", "leaflet", "markdown"))
+require(shinythemes)
+require(shiny)
+require(leaflet)
+require(markdown)
+require(plotly)
+
 # Alison
 source('alisons_scripts/script.R')
 ##################################################
@@ -29,10 +40,10 @@ source("scripts/buildWorldMap.R")
 # see example: https://shiny.rstudio.com/gallery/navbar-example.html
 # for more information on how to structure your portion of this function
 
-function(input, output, session) {
+shinyServer(function(input, output, session) {
   # Alison's Plot
   output$Ratings <- renderPlotly({
-    return(CreatePlot(input$year, input$country, input$variable))
+    return(CreatePlot(input$get.year, input$get.country, input$variable))
   })
   
   # Jason's Plot: World Map and Local Map
@@ -44,6 +55,7 @@ function(input, output, session) {
     worldMap(my_year = input$select_year)
   })
   
+  
   # Matthew's Plot: University rankings by score
   output$ranking <- renderPlotly({
     filtered <- filter(world_university_rankings, country == input$country)
@@ -51,6 +63,9 @@ function(input, output, session) {
              layout(xaxis = list(title = "University", showticklabels = FALSE),
                     yaxis = list(title = "Score")))
   })
-}
+
+  # Put your graph here
+})
+
 ##################################################
 
