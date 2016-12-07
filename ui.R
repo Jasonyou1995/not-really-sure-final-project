@@ -48,7 +48,7 @@ shinyUI(
             
             absolutePanel(id = "controls", fixed = TRUE, draggable = TRUE,
                           top = "auto", left = 25, right = "auto", bottom = 30,
-                          width = 330, height = 150,
+                          width = 330, height = 366,
                           
                           h2("World Universities"),
                           
@@ -57,15 +57,15 @@ shinyUI(
                                       min = 2011, max = 2016,
                                       value = 2015, step = 1, ticks = FALSE,
                                       animate = TRUE
-                          )
+                          ),
                           
-                          # plotOutput("")  # you can add plot to here
+                          plotlyOutput("getChoroplethMap", height = 200)
             )
         )
      ),
    
      # Jason: The local map to show the bars around the given University
-     tabPanel("University and Bar",
+     tabPanel("Bars Around",
         div(class="outer",
             tags$head(
               # Include the CSS features
@@ -74,16 +74,17 @@ shinyUI(
             
             leafletOutput("local_map", width = "100%", height = "100%"),
             absolutePanel(id = "controls", fixed = TRUE, draggable = TRUE,
-                          top = 60, left = "auto", right = 20, bottom = "auto",
+                          top = 50, left = "auto", right = 36, bottom = "auto",
                           width = 330, height = "auto",
                           
-                          h2("University and Bars"),
+                          h2("Bars Around"),
+                          
+                          plotlyOutput("getBarPlot", height = 200),
                           
                           # select which year of the data (2011 to 2016) to use
                           selectInput("university", "University", university_name,
-                                      selected = "University of Washington Seattle")
+                                   selected = "University of Washington Seattle")
                           
-                          # plotOutput("") # shown in the legend
             )
          )
       ),

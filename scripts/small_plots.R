@@ -30,11 +30,8 @@ getChoroplethMap <- function(my_year) {
       text = ~country
     ) %>%
     layout(
-      title = paste0(my_year, ' University count in each country', 
-                     '<br>Source:<a href="https://www.kaggle.com/', 
-                     'mylesoneill/world-university-rankings">', 
-                     'World University Rankings</a>'),
-      geo = g
+      geo = g,
+      margin = list(t = 0, r = 0, b = 0, l = 0)
     )
   
   return(choro_map)
@@ -46,11 +43,16 @@ getChoroplethMap <- function(my_year) {
 getHistogram <- function() {
   bar_data <- read.csv("data/newData/barData/timesData_bar_count_2016_top200.csv",
                        stringsAsFactors = FALSE)
+  
+  # my_histogram <- hist(bar_data$bar_count, col = 4, lwd = 2, border = 7)
+  
   my_histogram <- plot_ly(x = bar_data$bar_count, 
                           type = "histogram",
-                          color = "red") %>% 
+                          color = "red"
+                          ) %>% 
     layout(xaxis = list(title = "Number of bars"),
-           yaxis = list(title = "Count of Universities"))
+           yaxis = list(title = "Count of Universities"),
+           margin = list(t = 55, r = 0, b = 55, l = 55))
   return(my_histogram)
 }
 
@@ -58,15 +60,17 @@ getHistogram <- function() {
 getBarPlot <- function(my_university = "University of Washington Seattle") {
   bar_data <- read.csv("data/newData/barData/timesData_bar_count_2016_top200.csv",
                        stringsAsFactors = FALSE)
+  d <- bar_data %>% filter(university_name == my_university)
   
   my_barplot <- plot_ly(
-    x = c("Research (%)", "Teaching (%)", "International (%)", 
-          "Total score (%)", "Bar count"),
+    x = c("Research(%)", "Teaching(%)", "International(%)", 
+          "Total(%)", "Bars"),
     y = c(d$research, d$teaching, d$international, d$total_score, d$bar_count),
     showlegend = FALSE,
     type = "bar",
     mode = "markers"
-  )
+  ) %>% 
+    layout(margin = list(l = 20))
   
   return(my_barplot)
 }

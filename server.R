@@ -25,6 +25,7 @@ source('alisons_scripts/script.R')
 # Jason
 source("scripts/buildLocalMap.R")
 source("scripts/buildWorldMap.R")
+source("scripts/small_plots.R")
 ##################################################
 
 
@@ -47,6 +48,14 @@ shinyServer(function(input, output, session) {
   
   output$world_map <- renderLeaflet({
     worldMap(my_year = input$select_year)
+  })
+  
+  output$getChoroplethMap <- renderPlotly({
+    getChoroplethMap(input$select_year)
+  })
+  
+  output$getBarPlot <- renderPlotly({
+    getBarPlot(input$university)
   })
   
   # Put your graph here
