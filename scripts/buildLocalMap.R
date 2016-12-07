@@ -1,6 +1,6 @@
 # INFO 201, Autumn 2016, Secton AB
 # Team name: Not Really Sure
-# Comtributors: Jason You (please add your name in here, if you contributed)
+# Comtributors: Jason You
 #
 # When integrated with Shiny app, user can choose any University in
 # the university_name list to see details around each university
