@@ -4,7 +4,6 @@
 * Alison McGuire
 * Shengwei You
 * Matthew Tran
-* Mitchell Deamon
 
 <hr/>
 
@@ -32,7 +31,11 @@
 
 ### Alison McGuire
 
-*pls add your summary here...*
+* Contributions and scripts:
+    * Built the Ratings Plot
+    * Wrote alisons_scripts/Script.R which creates the function used in Ratings Plot
+    * Built inital ui.R and server.R
+    * Created More tab
 
 <hr/>
 
@@ -40,10 +43,6 @@
 
 *pls add your summary here...*
 
-<hr/>
 
-### Mitchell Deamon
-
-*pls add your summary here...*
 
 <hr/>

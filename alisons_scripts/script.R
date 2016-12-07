@@ -65,9 +65,10 @@ CreatePlot <- function(in.year, in.country, in.value){
                   hoverinfo = 'text',
                   text = ~paste("School:", final.data$university_name, "<br>Country:", final.data$country, "<br>", value)
                   ) %>%
-    layout(title = paste(in.value, "in the year: ", in.year, "in the country: ", in.country),
-           xaxis = list(showgrid = FALSE),
-           yaxis = list(showgrid = FALSE))
+    layout(title = "",
+           xaxis = list(title = "", showgrid = FALSE,
+                        showticklabels = FALSE),
+           yaxis = list(title = "Value", showgrid = FALSE))
   return(plot)
 }
 

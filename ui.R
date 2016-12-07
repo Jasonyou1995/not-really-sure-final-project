@@ -137,8 +137,16 @@ shinyUI(
                
                # Summary Tab
                ######################################
-               tabPanel("Summary",
-                        includeMarkdown("summary.md")
+               navbarMenu("More",
+                 tabPanel("About",
+                        includeMarkdown("More/about.md")
+                 ),
+                 tabPanel("How To",
+                        includeMarkdown("More/howto.md")
+                 ),
+                 tabPanel("Contributions",
+                          includeMarkdown("More/summary.md")
+                 )
                )
                ######################################
     )
