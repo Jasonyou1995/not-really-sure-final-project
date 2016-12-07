@@ -74,10 +74,8 @@ shinyUI(
             
             leafletOutput("local_map", width = "100%", height = "100%"),
             absolutePanel(id = "controls", fixed = TRUE, draggable = TRUE,
-                          top = 50, left = "auto", right = 36, bottom = "auto",
+                          top = "15%", left = "5%", right = "auto", bottom = "auto",
                           width = 330, height = "auto",
-                          
-                          h2("Bars Around"),
                           
                           plotlyOutput("getBarPlot", height = 200),
                           
