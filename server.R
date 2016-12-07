@@ -56,8 +56,6 @@ shinyServer(function(input, output, session) {
     worldMap(my_year = input$select_year)
   })
   
-<<<<<<< HEAD
-  
   # Matthew's Plot: University rankings by score
   output$ranking <- renderPlotly({
     filtered <- filter(world_university_rankings, country == input$country)
@@ -66,7 +64,6 @@ shinyServer(function(input, output, session) {
                     yaxis = list(title = "Score")))
   })
 
-=======
   output$getChoroplethMap <- renderPlotly({
     getChoroplethMap(input$select_year)
   })
@@ -74,10 +71,4 @@ shinyServer(function(input, output, session) {
   output$getBarPlot <- renderPlotly({
     getBarPlot(input$university)
   })
-  
->>>>>>> 5aef7c37bc11b69cae5148f8ec19fe87d4c39b38
-  # Put your graph here
 })
-
-##################################################
-

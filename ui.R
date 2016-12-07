@@ -140,7 +140,7 @@ shinyUI(
                # Summary Tab
                ######################################
                tabPanel("Summary",
-                        includeMarkdown("IDEAS.md")
+                        includeMarkdown("summary.md")
                )
                ######################################
     )
