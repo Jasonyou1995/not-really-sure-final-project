@@ -1,6 +1,6 @@
 # INFO 201, Autumn 2016, Secton AB
 # Team name: Not Really Sure
-# Comtributors: Jason You (please add your name in here, if you contributed)
+# Comtributors: Jason You
 #
 # Bulid a "tree" (list) structure for the reference of the bars around
 # each University. (bar_coordinate$one_university_name with return a dataframe

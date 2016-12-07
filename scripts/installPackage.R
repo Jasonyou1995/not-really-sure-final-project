@@ -1,6 +1,6 @@
 # INFO 201, Autumn 2016, Secton AB
 # Team name: Not Really Sure
-# Comtributors: Jason You (please add your name in here, if you contributed)
+# Comtributors: Jason You
 
 
 # Install and load all the given packages
