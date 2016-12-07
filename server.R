@@ -2,13 +2,19 @@
 ##################################################
 # INFO 201, Autumn 2016, Secton AB
 # Team name: Not Really Sure
-# Comtributors: Jason You, Alison McGuire, 
+# Contributors: Jason You, Alison McGuire, Matthew Tran
 
 # Shiny app server
 ##################################################
 
 #Script Sources and Modules: 
 ##################################################
+
+source("scripts/installPackage.R")
+installPackage(c("shinythemes", "shiny", "leaflet", "markdown"))
+# Data for the universities of the world
+world_university_rankings <- read.csv("data/cwurData.csv", stringsAsFactors = FALSE)
+
 # source("scripts/installPackage.R")
 # installPackage(c("shinythemes", "shiny", "leaflet", "markdown"))  # deprecated
 # install.packages(c("shinythemes", "shiny", "leaflet", "markdown"))
@@ -50,6 +56,17 @@ shinyServer(function(input, output, session) {
     worldMap(my_year = input$select_year)
   })
   
+<<<<<<< HEAD
+  
+  # Matthew's Plot: University rankings by score
+  output$ranking <- renderPlotly({
+    filtered <- filter(world_university_rankings, country == input$country)
+    return(plot_ly(data = filtered, x = ~filtered$institution, y = ~filtered$score, type = 'bar') %>% 
+             layout(xaxis = list(title = "University", showticklabels = FALSE),
+                    yaxis = list(title = "Score")))
+  })
+
+=======
   output$getChoroplethMap <- renderPlotly({
     getChoroplethMap(input$select_year)
   })
@@ -58,7 +75,9 @@ shinyServer(function(input, output, session) {
     getBarPlot(input$university)
   })
   
+>>>>>>> 5aef7c37bc11b69cae5148f8ec19fe87d4c39b38
   # Put your graph here
 })
+
 ##################################################
 

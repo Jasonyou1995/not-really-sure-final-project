@@ -2,7 +2,7 @@
 ##################################################
 # INFO 201, Autumn 2016, Secton AB
 # Team name: Not Really Sure
-# Comtributors: Jason You, Alison
+# Contributors: Jason You, Alison McGuire, Matthew Tran
 
 # Shiny app ui
 ##################################################
@@ -114,6 +114,27 @@ shinyUI(
                           mainPanel(plotlyOutput("Ratings"))
                         )
                ),
+     tabPanel("Rankings By Country", 
+              sidebarLayout(
+                sidebarPanel(
+                  h5("Pick To View Rankings By Country"),
+                  selectInput("country", " Country:", 
+                              choices = list("Argentina", "Australia", "Austria", "Belgium", "Brazil", "Bulgaria", "Canada", "Chile",
+                                             "China", "Croatia", "Cyprus", "Czech Repulic", "Denmark", "Egypt", "Estonia", "Finland",
+                                             "France", "Germany", "Greece", "Hong Kong", "Hungary", "Iceland", "India", "Iran",
+                                             "Ireland", "Israel", "Italy", "Japan", "Lebanon", "Lithuania", "Malaysia", "Mexico",
+                                             "Netherlands", "New Zealand", "Norway", "Poland", "Portugal", "Puerto Rico", "Romania",
+                                             "Russia", "Saudi Arabia", "Serbia", "Singapore", "Slovak Republic", "Slovenia",
+                                             "South Africa", "South Korea", "Spain", "Sweden", "Switzerland", "Taiwan","Thailand",
+                                             "Turkey", "Uganda", "United Arab Emirates", "United Kingodm", "Uruguay", "USA"))
+              ),
+                mainPanel(
+                  h2("Ranking of University By Score"),
+                  h5("Universities are scored on a scale of 0-100, which is used to determine world rank"),
+                  plotlyOutput('ranking')
+                )
+              )
+     ),
                ######################################
                
                # Summary Tab
