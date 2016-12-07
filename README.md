@@ -5,6 +5,7 @@
  Team name: *"Not Really Sure"*
 
 * Link to the final product: [World Top University Ranking Visualization](https://jasonyou1995.shinyapps.io/not-really-sure-final-project/)
+* **(A more detailed summary can be found in the last tab of our linked product)**
 
 ##Basic Infomation
 
