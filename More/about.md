@@ -1,6 +1,6 @@
 # About these pages
 
-See the data we used in action at the official New York Times website [here](https://www.timeshighereducation.com/world-university-rankings).
+See the data we used in action at the official New York Times website [here](https://www.timeshighereducation.com/world-university-rankings) and the CWUR website [here](http://cwur.org/2016.php).
 
 ## What we hope to accomplish: 
 

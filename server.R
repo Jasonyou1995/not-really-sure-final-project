@@ -3,7 +3,7 @@
 # INFO 201, Autumn 2016, Secton AB
 # Team name: Not Really Sure
 # Contributors: Jason You, Alison McGuire, Matthew Tran
-
+#
 # Shiny app server
 ##################################################
 
@@ -26,7 +26,6 @@ require(plotly)
 
 # Alison
 source('alisons_scripts/script.R')
-##################################################
 
 # Jason
 source("scripts/buildLocalMap.R")
@@ -42,12 +41,15 @@ source("scripts/small_plots.R")
 # for more information on how to structure your portion of this function
 
 shinyServer(function(input, output, session) {
+  ####################################
   # Alison's Plot
   output$Ratings <- renderPlotly({
     return(CreatePlot(input$get.year, input$get.country, input$variable))
   })
-  
+  ####################################
+  ####################################
   # Jason's Plot: World Map and Local Map
+  
   output$local_map <- renderLeaflet({
     localMap(my_university = input$university)
   })
@@ -56,14 +58,6 @@ shinyServer(function(input, output, session) {
     worldMap(my_year = input$select_year)
   })
   
-  # Matthew's Plot: University rankings by score
-  output$ranking <- renderPlotly({
-    filtered <- filter(world_university_rankings, country == input$country)
-    return(plot_ly(data = filtered, x = ~filtered$institution, y = ~filtered$score, type = 'bar') %>% 
-             layout(xaxis = list(title = "University", showticklabels = FALSE),
-                    yaxis = list(title = "Score")))
-  })
-
   output$getChoroplethMap <- renderPlotly({
     getChoroplethMap(input$select_year)
   })
@@ -71,4 +65,14 @@ shinyServer(function(input, output, session) {
   output$getBarPlot <- renderPlotly({
     getBarPlot(input$university)
   })
+  ####################################
+  ####################################
+  # Matthew's Plot: University rankings by score
+  output$ranking <- renderPlotly({
+    filtered <- filter(world_university_rankings, country == input$country)
+    return(plot_ly(data = filtered, x = ~filtered$institution, y = ~filtered$score, type = 'bar') %>% 
+             layout(xaxis = list(title = "University", showticklabels = FALSE),
+                    yaxis = list(title = "Score")))
+  })
+  #####################################
 })

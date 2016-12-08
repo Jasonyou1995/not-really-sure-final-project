@@ -36,57 +36,59 @@ shinyUI(
   # Use shiny theme "yeti"
   navbarPage("World Top Universites", theme = shinytheme("yeti"),
              
-     # Jason: Visualize all the top Universities in the world in different years 
-     tabPanel("World map",
-        div(class="outer",
-            tags$head(
-              # Include the CSS features
-              includeCSS("style.css")
-            ),
-            
-            leafletOutput("world_map", width = "100%", height = "100%"),
-            
-            absolutePanel(id = "controls", fixed = TRUE, draggable = TRUE,
-                          top = "auto", left = 25, right = "auto", bottom = 30,
-                          width = 330, height = 366,
-                          
-                          h2("World Universities"),
-                          
-                          # select which year of the data (2011 to 2016) to use
-                          sliderInput("select_year", "Year of data to use:", 
-                                      min = 2011, max = 2016,
-                                      value = 2015, step = 1, ticks = FALSE,
-                                      animate = TRUE
-                          ),
-                          
-                          plotlyOutput("getChoroplethMap", height = 200)
-            )
-        )
-     ),
-   
-     # Jason: The local map to show the bars around the given University
-     tabPanel("Bars Around",
-        div(class="outer",
-            tags$head(
-              # Include the CSS features
-              includeCSS("style.css")
-            ),
-            
-            leafletOutput("local_map", width = "100%", height = "100%"),
-            absolutePanel(id = "controls", fixed = TRUE, draggable = TRUE,
-                          top = "15%", left = "5%", right = "auto", bottom = "auto",
-                          width = 330, height = "auto",
-                          
-                          plotlyOutput("getBarPlot", height = 200),
-                          
-                          # select which year of the data (2011 to 2016) to use
-                          selectInput("university", "University", university_name,
-                                   selected = "University of Washington Seattle")
-                          
-            )
-         )
-      ),
-  
+                #Jason's Tabs
+                ##############################################
+               # Jason: Visualize all the top Universities in the world in different years 
+               tabPanel("World map",
+                  div(class="outer",
+                      tags$head(
+                        # Include the CSS features
+                        includeCSS("style.css")
+                      ),
+                      
+                      leafletOutput("world_map", width = "100%", height = "100%"),
+                      
+                      absolutePanel(id = "controls", fixed = TRUE, draggable = TRUE,
+                                    top = "auto", left = 25, right = "auto", bottom = 30,
+                                    width = 330, height = 366,
+                                    
+                                    h2("World Universities"),
+                                    
+                                    # select which year of the data (2011 to 2016) to use
+                                    sliderInput("select_year", "Year of data to use:", 
+                                                min = 2011, max = 2016,
+                                                value = 2015, step = 1, ticks = FALSE,
+                                                animate = TRUE
+                                    ),
+                                    
+                                    plotlyOutput("getChoroplethMap", height = 200)
+                      )
+                  )
+               ),
+             
+               # Jason: The local map to show the bars around the given University
+               tabPanel("Bars Around",
+                  div(class="outer",
+                      tags$head(
+                        # Include the CSS features
+                        includeCSS("style.css")
+                      ),
+                      
+                      leafletOutput("local_map", width = "100%", height = "100%"),
+                      absolutePanel(id = "controls", fixed = TRUE, draggable = TRUE,
+                                    top = "15%", left = "5%", right = "auto", bottom = "auto",
+                                    width = 330, height = "auto",
+                                    
+                                    plotlyOutput("getBarPlot", height = 200),
+                                    
+                                    # select which year of the data (2011 to 2016) to use
+                                    selectInput("university", "University", university_name,
+                                             selected = "University of Washington Seattle")
+                                    
+                      )
+                   )
+                ),
+               ###################################################
 
                # Alison's Tab
                ######################################
@@ -109,31 +111,36 @@ shinyUI(
                                                         "Female to Male Ratio" = 'female_male_ratio'), selected = 'total_score')
                            
                             ),
+                          #output a plotly graph called "Ratings"
                           mainPanel(plotlyOutput("Ratings"))
                         )
                ),
-     tabPanel("Rankings By Country", 
-              sidebarLayout(
-                sidebarPanel(
-                  h5("Pick To View Rankings By Country"),
-                  selectInput("country", " Country:", 
-                              choices = list("Argentina", "Australia", "Austria", "Belgium", "Brazil", "Bulgaria", "Canada", "Chile",
-                                             "China", "Croatia", "Cyprus", "Czech Repulic", "Denmark", "Egypt", "Estonia", "Finland",
-                                             "France", "Germany", "Greece", "Hong Kong", "Hungary", "Iceland", "India", "Iran",
-                                             "Ireland", "Israel", "Italy", "Japan", "Lebanon", "Lithuania", "Malaysia", "Mexico",
-                                             "Netherlands", "New Zealand", "Norway", "Poland", "Portugal", "Puerto Rico", "Romania",
-                                             "Russia", "Saudi Arabia", "Serbia", "Singapore", "Slovak Republic", "Slovenia",
-                                             "South Africa", "South Korea", "Spain", "Sweden", "Switzerland", "Taiwan","Thailand",
-                                             "Turkey", "Uganda", "United Arab Emirates", "United Kingodm", "Uruguay", "USA"))
-              ),
-                mainPanel(
-                  h2("Ranking of University By Score"),
-                  h5("Universities are scored on a scale of 0-100, which is used to determine world rank"),
-                  plotlyOutput('ranking')
-                )
-              )
-     ),
-               ######################################
+              ########################################
+     
+               # Matthew's Tab
+               ###########################################
+               tabPanel("Rankings By Country", 
+                        sidebarLayout(
+                          sidebarPanel(
+                            h5("Pick To View Rankings By Country"),
+                            selectInput("country", " Country:", 
+                                        choices = list("Argentina", "Australia", "Austria", "Belgium", "Brazil", "Bulgaria", "Canada", "Chile",
+                                                       "China", "Croatia", "Cyprus", "Czech Repulic", "Denmark", "Egypt", "Estonia", "Finland",
+                                                       "France", "Germany", "Greece", "Hong Kong", "Hungary", "Iceland", "India", "Iran",
+                                                       "Ireland", "Israel", "Italy", "Japan", "Lebanon", "Lithuania", "Malaysia", "Mexico",
+                                                       "Netherlands", "New Zealand", "Norway", "Poland", "Portugal", "Puerto Rico", "Romania",
+                                                       "Russia", "Saudi Arabia", "Serbia", "Singapore", "Slovak Republic", "Slovenia",
+                                                       "South Africa", "South Korea", "Spain", "Sweden", "Switzerland", "Taiwan","Thailand",
+                                                       "Turkey", "Uganda", "United Arab Emirates", "United Kingodm", "Uruguay", "USA"))
+                        ),
+                          mainPanel(
+                            h2("Ranking of University By Score"),
+                            h5("Universities are scored on a scale of 0-100, which is used to determine world rank"),
+                            plotlyOutput('ranking')
+                          )
+                        )
+               ),
+              ######################################
                
                # Summary Tab
                ######################################
