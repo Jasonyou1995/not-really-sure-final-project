@@ -42,7 +42,7 @@ What makes this visualization special is that people can compare the Universitie
 
 *Jason You*
 
-* Total time spent: **54 hours**
+* Total time spent: 54 hours
 	* 26 hours to *gathering data* from Google API and other places
 	* 28 hours to build the *world and local map*
 * No helps from others for any of the personal work, and worked collaboratively on the shiny app
