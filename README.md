@@ -51,6 +51,9 @@ What makes this visualization special is that people can compare the Universitie
 
 *Alison McGuire*
 
+* Total time spent: 28 hours
+* No help from others on scripts, worked collaboratively on the shiny app
+  
 
 <hr/>
 

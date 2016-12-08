@@ -92,7 +92,7 @@ shinyUI(
 
                # Alison's Tab
                ######################################
-               tabPanel("Rankings Plot",
+               tabPanel("Ratings Plot",
                         sidebarLayout(
                           sidebarPanel(
                             # Gets year input

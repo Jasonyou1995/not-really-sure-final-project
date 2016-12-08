@@ -1,5 +1,7 @@
 # How we built this product?
 
+See our github page [here](https://github.com/Jasonyou1995/not-really-sure-final-project).
+
 ## Our contributors
 * Alison McGuire
 * Shengwei You
@@ -25,16 +27,20 @@
 ### Alison McGuire
 
 * Contributions and scripts:
-    * Built the Ratings Plot
     * Wrote alisons_scripts/Script.R which creates the function used in Ratings Plot
+    * Created and used alisons_scripts/testing.R for the purpose of testing my code
+    * Built the Ratings Plot
     * Built inital ui.R and server.R
-    * Created More tab
+    * Created More tab including:
+      * summary.md: includes how we built this project and who did what parts
+      * howto.md: explains how to use each tab
+      * about.md: about our data 
 
 <hr/>
 
 ### Matthew Tran
 
-*pls add your summary here...*
+*pls add here...*
 
 
 

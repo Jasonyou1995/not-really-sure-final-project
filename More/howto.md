@@ -1,11 +1,11 @@
 # How to use 
 
 ### World Map
-*pls add your more here...*
+This map shows where schools are located all accross the world. Begin by clicking on a number (which will take you to a closer look at the schools in that area) or a graduation cap to see more about the school!
 
 
 ### Bars
-*pls add your more here...*
+Choose a university and see the bars around the area. Also note how the ratings change across universities with the number of bars in the university's area. 
 
 
 ### Ratings Plot
@@ -22,7 +22,8 @@ Options Include:
 * Female to Male Ratio: Number of female students divided by the number of male students. 
 
 
-
-
 ### Rankings
-*pls add your more here...*
+This plot shows overall rankings for each school sorted by their country.
+Choose a country and see how the schools there rank compared to each other. 
+
+
