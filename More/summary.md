@@ -40,7 +40,8 @@ See our github page [here](https://github.com/Jasonyou1995/not-really-sure-final
 
 ### Matthew Tran
 
-*pls add here...*
+* Contributions:
+	* Built the Rankings By Country tab and plot
 
 
 
