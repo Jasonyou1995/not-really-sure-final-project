@@ -7,7 +7,7 @@
 * Link to the final product: [World Top University Ranking Visualization](https://jasonyou1995.shinyapps.io/not-really-sure-final-project/)
 * **(A more detailed summary can be found in the last tab of our linked product)**
 
-##Basic Infomation
+## Basic Infomation
 
 **Team:**
 
@@ -38,4 +38,23 @@ What makes this visualization special is that people can compare the Universitie
 * Google Geomap API
 * leaflet
 
+## Other information
 
+*Jason You*
+
+* Total time spent: **54 hours**
+	* 26 hours to *gathering data* from Google API and other places
+	* 28 hours to build the *world and local map*
+* No helps from others for any of the personal work, and worked collaboratively on the shiny app
+
+<hr/>
+
+*Alison McGuire*
+
+
+<hr/>
+
+*Matthew Tran*
+
+
+<hr/>

@@ -19,13 +19,6 @@
 		* **~/style.css**: refine the displacement of the map, and make it more interactive
 		* **~/scripts/buildLocalMap.R**: search each University and high light the bars around them
 		* **~/scripts/small_plots.R**: several statistical plots with *plotly* package, and shown in the control board of the maps
-	* Group work:
-		* **~/ui.R**: build the tabs for the world and local maps
-
-* Total time spent: **54 hours**
-	* 26 hours to *gathering data* from Google API and other places
-	* 28 hours to build the *world and local map*
-* No helps from others for any of the personal work, and worked collaboratively on the shiny app
 
 <hr/>
 
