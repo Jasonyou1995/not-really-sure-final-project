@@ -1,8 +1,8 @@
-# not-really-sure-final-project
+# To-The-Moon-final-project
 
 **Final project for INFO201-a16**
 
- Team name: *"Not Really Sure"*
+ Team name: *"To The Moon"*
 
 * Link to the final product: [World Top University Ranking Visualization](https://jasonyou1995.shinyapps.io/not-really-sure-final-project/)
 * **(A more detailed summary can be found in the last tab of our linked product)**
